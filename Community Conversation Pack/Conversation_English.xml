@@ -12,10 +12,19 @@
 				<Conversation line="Oh, fuck off!!!" speaker="0" speakertags="rude"/>
 				<Conversation line="Don't just joke around, mate." speaker="3"/>
 				<Conversation line="Cut it, this's not the time." speaker="3" speakertags="professional"/>
-			<Conversation/>
-		<Conversation/>
-	<Conversation/>
+			</Conversation>
+		</Conversation>
+	</Conversation>
 	<Conversation line="Of course, I've checked every part of our submarine." speaker="1" speakertags="hardworking"/>
+</Conversation>
+
+<Conversation line="Europa is weird" speaker="0">
+	<Conversation line="Sounds more like mysterious" speaker="1" speakertags="agreeable">
+		<Conversation line="Yeah, Europa is more mysterious than weird" speaker="2">
+			<Conversation line="Okay then." speaker="0"/>
+		</Conversation>
+	</Conversion>
+	<Conversation line="With all of us living underwater? Of course." speaker="1"/>
 </Conversation>
 
 </Conversations>
