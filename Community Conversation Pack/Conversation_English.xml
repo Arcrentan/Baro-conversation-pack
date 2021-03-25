@@ -23,7 +23,7 @@
 		<Conversation line="Yeah, Europa is more mysterious than weird" speaker="2">
 			<Conversation line="Okay then." speaker="0"/>
 		</Conversation>
-	</Conversion>
+	</Conversation>
 	<Conversation line="With all of us living underwater? Of course." speaker="1"/>
 </Conversation>
 
