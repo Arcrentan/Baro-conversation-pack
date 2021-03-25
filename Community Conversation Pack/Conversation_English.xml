@@ -5,6 +5,7 @@
 
 <Conversation line="Have we checked our equipment before departing?" flags="Initial" speaker="0">
 	<Conversation line="Yes, we did." speaker="1"/>
+	<Conversation line="Yes." speaker="1" speakertags="simple"/>
 	<Conversation line="Of course, I've checked every part of our submarine." speaker="1" speakertags="hardworking"/>
 </Conversation>
 
