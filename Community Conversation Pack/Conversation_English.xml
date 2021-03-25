@@ -24,7 +24,9 @@
 			<Conversation line="Okay then." speaker="0"/>
 		</Conversation>
 	</Conversation>
-	<Conversation line="With all of us living underwater? Of course." speaker="1"/>
+	<Conversation line="With all of us living underwater? Of course." speaker="1">
+		<Conversation line="technically, not exactly underwater." speaker="2" speakertags="logical"/>
+	</Conversation>
 </Conversation>
 
 </Conversations>
