@@ -258,8 +258,137 @@
 <PersonalityTrait name="Youthful"		alloweddialogtags="youthful,none"		commonness="0,5" />
 
  <!-- Neutral -->
- 
- 
+
+<PersonalityTrait name="Absentminded"	alloweddialogtags="absentminded,none"	commonness="0,5" />
+<PersonalityTrait name="Aggressive"		alloweddialogtags="aggressive,none"		commonness="0,5" />
+<PersonalityTrait name="Ambitious"		alloweddialogtags="ambitious,none"		commonness="0,5" />
+<PersonalityTrait name="Amusing"		alloweddialogtags="amusing,none"		commonness="0,5" />
+<PersonalityTrait name="Artful"			alloweddialogtags="artful,none"			commonness="0,5" />
+<PersonalityTrait name="Ascetic"		alloweddialogtags="ascetic,none"		commonness="0,5" />
+<PersonalityTrait name="Authoritarian"	alloweddialogtags="authoritarian,none"	commonness="0,5" />
+
+<PersonalityTrait name="Big-thinking"	alloweddialogtags="big-thinking,none"	commonness="0,5" />
+<PersonalityTrait name="Boyish"			alloweddialogtags="boyish,none"			commonness="0,5" />
+<PersonalityTrait name="Breezy"			alloweddialogtags="breezy,none"			commonness="0,5" />
+<PersonalityTrait name="Businesslike"	alloweddialogtags="businesslike,none"	commonness="0,5" />
+<PersonalityTrait name="Busy"			alloweddialogtags="busy,none"			commonness="0,5" />
+
+<PersonalityTrait name="Casual"			alloweddialogtags="casual,none"			commonness="0,5" />
+<PersonalityTrait name="Crebral"		alloweddialogtags="crebral,none"		commonness="0,5" />
+<PersonalityTrait name="Chummy"			alloweddialogtags="chummy,none"			commonness="0,5" />
+<PersonalityTrait name="Circumspect"	alloweddialogtags="circumspect,none"	commonness="0,5" />
+<PersonalityTrait name="Competitive"	alloweddialogtags="competitive,none"	commonness="0,5" />
+<PersonalityTrait name="Complex"		alloweddialogtags="complex,none"		commonness="0,5" />
+<PersonalityTrait name="Confidential"	alloweddialogtags="confidential,none"	commonness="0,5" />
+<PersonalityTrait name="Conservative"	alloweddialogtags="conservative,none"	commonness="0,5" />
+<PersonalityTrait name="Contradictory"	alloweddialogtags="contradictory,none"	commonness="0,5" />
+<PersonalityTrait name="Crisp"			alloweddialogtags="crisp,none"			commonness="0,5" />
+<PersonalityTrait name="Cute"			alloweddialogtags="cute,none"			commonness="0,5" />
+
+<PersonalityTrait name="Deceptive"		alloweddialogtags="deceptive,none"		commonness="0,5" />
+<PersonalityTrait name="Determined"		alloweddialogtags="determined,none"		commonness="0,5" />
+<PersonalityTrait name="Dominating"		alloweddialogtags="dominating,none"		commonness="0,5" />
+<PersonalityTrait name="Dreamy"			alloweddialogtags="dreamy,none"			commonness="0,5" />
+<PersonalityTrait name="Driving"		alloweddialogtags="driving,none"		commonness="0,5" />
+<PersonalityTrait name="Droll"			alloweddialogtags="droll,none"			commonness="0,5" />
+<PersonalityTrait name="Dry"			alloweddialogtags="dry,none"			commonness="0,5" />
+
+<PersonalityTrait name="Earthy"			alloweddialogtags="earthy,none"			commonness="0,5" />
+<PersonalityTrait name="Effeminate"		alloweddialogtags="effeminate,none"		commonness="0,5" />
+<PersonalityTrait name="Emotional"		alloweddialogtags="emotional,none"		commonness="0,5" />
+<PersonalityTrait name="Enigmatic"		alloweddialogtags="enigmatic,none"		commonness="0,5" />
+<PersonalityTrait name="Experimental"	alloweddialogtags="experimental,none"	commonness="0,5" />
+
+<PersonalityTrait name="Familial"		alloweddialogtags="familial,none"		commonness="0,5" />
+<PersonalityTrait name="Folksy"			alloweddialogtags="folksy,none"			commonness="0,5" />
+<PersonalityTrait name="Formal"			alloweddialogtags="formal,none"			commonness="0,5" />
+<PersonalityTrait name="Freewheeling"	alloweddialogtags="freewheeling,none"	commonness="0,5" />
+<PersonalityTrait name="Frugal"			alloweddialogtags="frugal,none"			commonness="0,5" />
+
+<PersonalityTrait name="Glamorous"		alloweddialogtags="glamorous,none"		commonness="0,5" />
+<PersonalityTrait name="Guileless"		alloweddialogtags="guileless,none"		commonness="0,5" />
+
+<PersonalityTrait name="High-spirited"	alloweddialogtags="high-spirited,none"	commonness="0,5" />
+<PersonalityTrait name="Huried"			alloweddialogtags="huried,none"			commonness="0,5" />
+<PersonalityTrait name="Hypnotic"		alloweddialogtags="hypnotic,none"		commonness="0,5" />
+
+<PersonalityTrait name="Iconoclastic"	alloweddialogtags="iconoclastic,none"	commonness="0,5" />
+<PersonalityTrait name="Idiosyncratic"	alloweddialogtags="idiosyncratic,none"	commonness="0,5" />
+<PersonalityTrait name="Impassive"		alloweddialogtags="impassive,none"		commonness="0,5" />
+<PersonalityTrait name="Impersonal"		alloweddialogtags="impersonal,none"		commonness="0,5" />
+<PersonalityTrait name="Impressionable"	alloweddialogtags="impressionable,none"	commonness="0,5" />
+<PersonalityTrait name="Intense"		alloweddialogtags="intense,none"		commonness="0,5" />
+<PersonalityTrait name="Invisible"		alloweddialogtags="invisible,none"		commonness="0,5" />
+<PersonalityTrait name="Irreligious"	alloweddialogtags="irreligious,none"	commonness="0,5" />
+<PersonalityTrait name="Irreverent"		alloweddialogtags="irreverent,none"		commonness="0,5" />
+
+<PersonalityTrait name="Maternal"		alloweddialogtags="maternal,none"		commonness="0,5" />
+<PersonalityTrait name="Mellow"			alloweddialogtags="mellow,none"			commonness="0,5" />
+<PersonalityTrait name="Modern"			alloweddialogtags="modern,none"			commonness="0,5" />
+<PersonalityTrait name="Moralistic"		alloweddialogtags="moralistic,none"		commonness="0,5" />
+<PersonalityTrait name="Mystical"		alloweddialogtags="mystical,none"		commonness="0,5" />
+
+<PersonalityTrait name="Neutral"		alloweddialogtags="neutral,none"		commonness="0,5" />
+<PersonalityTrait name="Noncommittal"	alloweddialogtags="noncommittal,none"	commonness="0,5" />
+<PersonalityTrait name="Noncompetitive"	alloweddialogtags="noncompetitive,none"	commonness="0,5" />
+
+<PersonalityTrait name="Obedient"		alloweddialogtags="obedient,none"		commonness="0,5" />
+<PersonalityTrait name="Old-fashined"	alloweddialogtags="old-fashined,none"	commonness="0,5" />
+<PersonalityTrait name="Ordinary"		alloweddialogtags="ordinary,none"		commonness="0,5" />
+<PersonalityTrait name="Outspoken"		alloweddialogtags="outspoken,none"		commonness="0,5" />
+
+<PersonalityTrait name="Paternalistic"	alloweddialogtags="paternalistic,none"	commonness="0,5" />
+<PersonalityTrait name="Physical"		alloweddialogtags="physical,none"		commonness="0,5" />
+<PersonalityTrait name="Placid"			alloweddialogtags="placid,none"			commonness="0,5" />
+<PersonalityTrait name="Political"		alloweddialogtags="political,none"		commonness="0,5" />
+<PersonalityTrait name="Predictable"	alloweddialogtags="predictable,none"	commonness="0,5" />
+<PersonalityTrait name="Preoccupied"	alloweddialogtags="preoccupied,none"	commonness="0,5" />
+<PersonalityTrait name="Private"		alloweddialogtags="private,none"		commonness="0,5" />
+<PersonalityTrait name="Progressive"	alloweddialogtags="progressive,none"	commonness="0,5" />
+<PersonalityTrait name="Proud"			alloweddialogtags="proud,none"			commonness="0,5" />
+<PersonalityTrait name="Pure"			alloweddialogtags="pure,none"			commonness="0,5" />
+
+<PersonalityTrait name="Questioning"	alloweddialogtags="questioning,none"	commonness="0,5" />
+<PersonalityTrait name="Quiet"			alloweddialogtags="quiet,none"			commonness="0,5" />
+
+<PersonalityTrait name="Religious"		alloweddialogtags="religious,none"		commonness="0,5" />
+<PersonalityTrait name="Reserved"		alloweddialogtags="reserved,none"		commonness="0,5" />
+<PersonalityTrait name="Restrained"		alloweddialogtags="restrained,none"		commonness="0,5" />
+<PersonalityTrait name="Retiring"		alloweddialogtags="retiring,none"		commonness="0,5" />
+
+<PersonalityTrait name="Sarcastic"		alloweddialogtags="sarcastic,none"		commonness="0,5" />
+<PersonalityTrait name="Self-conscious"	alloweddialogtags="self-conscious,none"	commonness="0,5" />
+<PersonalityTrait name="Sensual"		alloweddialogtags="sensual,none"		commonness="0,5" />
+<PersonalityTrait name="Skeptical"		alloweddialogtags="skeptical,none"		commonness="0,5" />
+<PersonalityTrait name="Smooth"			alloweddialogtags="smooth,none"			commonness="0,5" />
+<PersonalityTrait name="Soft"			alloweddialogtags="soft,none"			commonness="0,5" />
+<PersonalityTrait name="Solemn"			alloweddialogtags="solemn,none"			commonness="0,5" />
+<PersonalityTrait name="Solitary"		alloweddialogtags="solitary,none"		commonness="0,5" />
+<PersonalityTrait name="Stern"			alloweddialogtags="stern,none"			commonness="0,5" />
+<PersonalityTrait name="Stoiid"			alloweddialogtags="stoiid,none"			commonness="0,5" />
+<PersonalityTrait name="Strict"			alloweddialogtags="strict,none"			commonness="0,5" />
+<PersonalityTrait name="Stubborn"		alloweddialogtags="stubborn,none"		commonness="0,5" />
+<PersonalityTrait name="Stylish"		alloweddialogtags="stylish,none"		commonness="0,5" />
+<PersonalityTrait name="Subjective"		alloweddialogtags="subjective,none"		commonness="0,5" />
+<PersonalityTrait name="Surprising"		alloweddialogtags="surprising,none"		commonness="0,5" />
+<PersonalityTrait name="Soft"			alloweddialogtags="soft,none"			commonness="0,5" />
+
+<PersonalityTrait name="Tough"			alloweddialogtags="tough,none"			commonness="0,5" />
+
+<PersonalityTrait name="Unaggressive"	alloweddialogtags="unaggressive,none"	commonness="0,5" />
+<PersonalityTrait name="Unambitious"	alloweddialogtags="unambitious,none"	commonness="0,5" />
+<PersonalityTrait name="Unceremonious"	alloweddialogtags="unceremonious,none"	commonness="0,5" />
+<PersonalityTrait name="Unchanging"		alloweddialogtags="unchanging,none"		commonness="0,5" />
+<PersonalityTrait name="Undemanding"	alloweddialogtags="undemanding,none"	commonness="0,5" />
+<PersonalityTrait name="Unfathomable"	alloweddialogtags="unfathomable,none"	commonness="0,5" />
+<PersonalityTrait name="Unhurried"		alloweddialogtags="unhurried,none"		commonness="0,5" />
+<PersonalityTrait name="Uninhibited"	alloweddialogtags="uninhibited,none"	commonness="0,5" />
+<PersonalityTrait name="Unpatriotic"	alloweddialogtags="unpatriotic,none"	commonness="0,5" />
+<PersonalityTrait name="Unpredicatable"	alloweddialogtags="unpredicatable,none"	commonness="0,5" />
+<PersonalityTrait name="Unreligious"	alloweddialogtags="unreligious,none"	commonness="0,5" />
+<PersonalityTrait name="Unsentimental"	alloweddialogtags="unsentimental,none"	commonness="0,5" />
+
+<PersonalityTrait name="Whimsical"		alloweddialogtags="whimsical,none"		commonness="0,5" />
  
  <!-- Negative -->
  
