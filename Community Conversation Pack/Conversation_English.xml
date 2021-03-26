@@ -28,5 +28,37 @@
 		<Conversation line="technically, not exactly underwater." speaker="2" speakertags="logical"/>
 	</Conversation>
 </Conversation>
+	
+<Conversation line="There is water in my boots!" speaker="0">
+	<Conversation line="Shake it out." speaker="1"/>
+	<Conversation line="Let it dry." speaker="1"/>
+	<Conversation line="You don't have to complain about it everytime." speaker="1" speakertags="realistic"/>
+</Conversation>
+	
+<Conversation line="This's really dizzy." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
+	<Conversation line="What is really dizzy?" speaker="1">
+		<Conversation line="Sorry, me." speaker="0"/>
+	</Conversation>
+</Conversation>
+
+<Conversation line="The Coalition needs to do a better job." speaker="0" speakertags="political">
+	<Conversation line="Oh god not again..." speaker="1">
+		<Conversation line="They have been doing nothing to keep us safe!" speaker="0">
+			<Conversation line="Isn't it our job to keep 'us' safe?" speaker="2"/>
+			<Conversation line="But we are safe!" speaker="2" maxintensity="0.1"/>
+			<Conversation line="Nowhere is safe..." speaker="2" minintensity="0.4"/>
+			<Conversation line="Look to the better side, my friend." speaker="2" speakertags="optimistic"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="They have been doing nothing to keep us safe!" speaker="0">
+		<Conversation line="Isn't it our job to keep 'us' safe?" speaker="2"/>
+		<Conversation line="But we are safe!" speaker="2" maxintensity="0.1"/>
+		<Conversation line="Nowhere is safe..." speaker="2" minintensity="0.4"/>
+		<Conversation line="Look to the better side, my friend." speaker="2" speakertags="optimistic"/>
+	</Conversation>
+	<Conversation line="Let's not talk about this." speaker="1" allowedjobs="captain"/>
+	<Conversation line="We don't need them anyway." speaker="1" speakertags="nonauthoritarian"/>
+	<Conversation line="I'll dump you out of the airlock if you keep ranting shit!" speaker="1" speakertags="rude"/>
+</Conversation>
 
 </Conversations>
