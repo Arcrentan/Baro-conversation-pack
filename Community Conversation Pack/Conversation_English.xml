@@ -51,10 +51,10 @@
 		</Conversation>
 	</Conversation>
 	<Conversation line="They have been doing nothing to keep us safe!" speaker="0">
-		<Conversation line="Isn't it our job to keep 'us' safe?" speaker="2"/>
-		<Conversation line="But we are safe!" speaker="2" maxintensity="0.1"/>
-		<Conversation line="Nowhere is safe..." speaker="2" minintensity="0.4"/>
-		<Conversation line="Look to the better side, my friend." speaker="2" speakertags="optimistic"/>
+		<Conversation line="Isn't it our job to keep 'us' safe?" speaker="1"/>
+		<Conversation line="But we are safe!" speaker="1" maxintensity="0.1"/>
+		<Conversation line="Nowhere is safe..." speaker="1" minintensity="0.4"/>
+		<Conversation line="Look to the better side, my friend." speaker="1" speakertags="optimistic"/>
 	</Conversation>
 	<Conversation line="Let's not talk about this." speaker="1" allowedjobs="captain"/>
 	<Conversation line="We don't need them anyway." speaker="1" speakertags="nonauthoritarian"/>
