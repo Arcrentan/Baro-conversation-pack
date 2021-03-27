@@ -6,7 +6,7 @@
 <Conversation line="Have we checked our equipment before departing?" flags="Initial" speaker="0">
 	<Conversation line="Yes, we did." speaker="1"/>
 	<Conversation line="Yes." speaker="1" speakertags="simple"/>
-	<Conversation line="Actually, we might have had the problem with the reactor." speaker="1" speakertags="humorous">
+	<Conversation line="Actually, we might have the problem with the reactor." speaker="1" speakertags="humorous">
 		<Conversation line="Wait, really?" speaker="0">
 			<Conversation line="Just kidding!" speaker="1">
 				<Conversation line="Oh, fuck off!!!" speaker="0" speakertags="rude"/>
@@ -16,7 +16,7 @@
 		</Conversation>
 	</Conversation>
 	<Conversation line="Of course, I've checked every part of our submarine." speaker="1" speakertags="hardworking"/>
-</Conversation>
+</Conversation><!--6 Variant-->
 
 <Conversation line="Europa is weird" speaker="0">
 	<Conversation line="Sounds more like mysterious" speaker="1" speakertags="agreeable">
@@ -25,40 +25,81 @@
 		</Conversation>
 	</Conversation>
 	<Conversation line="With all of us living underwater? Of course." speaker="1">
-		<Conversation line="technically, not exactly underwater." speaker="2" speakertags="logical"/>
+		<Conversation line="Technically, not exactly underwater." speaker="2" speakertags="logical"/>
 	</Conversation>
-</Conversation>
+</Conversation><!--2 Variant-->
 	
-<Conversation line="There is water in my boots!" speaker="0">
+<Conversation line="Theres water in my boots!" speaker="0">
 	<Conversation line="Shake it out." speaker="1"/>
 	<Conversation line="Let it dry." speaker="1"/>
 	<Conversation line="You don't have to complain about it everytime." speaker="1" speakertags="realistic"/>
-</Conversation>
+</Conversation><!--3 Variant-->
 	
 <Conversation line="This's really dizzy." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
 	<Conversation line="What is really dizzy?" speaker="1">
 		<Conversation line="Sorry, me." speaker="0"/>
 	</Conversation>
-</Conversation>
+</Conversation><!--1 Variant-->
 
 <Conversation line="The Coalition needs to do a better job." speaker="0" speakertags="political">
 	<Conversation line="Oh god not again..." speaker="1">
-		<Conversation line="They have been doing nothing to keep us safe!" speaker="0">
-			<Conversation line="Isn't it our job to keep 'us' safe?" speaker="2"/>
-			<Conversation line="But we are safe!" speaker="2" maxintensity="0.1"/>
+		<Conversation line="They are just a bunch of lazy people, even ice cavern isn't a safe place." speaker="0">
+			<Conversation line="Isn't it our job to keep 'us' safe anywhere?" speaker="2"/>
 			<Conversation line="Nowhere is safe..." speaker="2" minintensity="0.4"/>
-			<Conversation line="Look to the better side, my friend." speaker="2" speakertags="optimistic"/>
+			<Conversation line="But nowhere is safe..." speaker="2" minintensity="0.4"/>
+			<Conversation line="Nowhere is safe anyway..." speaker="2" minintensity="0.4"/>
+			<Conversation line="But nowhere is safe anyway..." speaker="2" minintensity="0.4"/>
+			<Conversation line="We're still alive, that's what matters." speaker="2" speakertags="optimistic"/>
+			<Conversation line="They did something, atleast." speaker="2" speakertags="optimistic"/>
 		</Conversation>
 	</Conversation>
-	<Conversation line="They have been doing nothing to keep us safe!" speaker="0">
-		<Conversation line="Isn't it our job to keep 'us' safe?" speaker="1"/>
+	<Conversation line="They are just a bunch of lazy people, even ice cavern isn't a safe place." speaker="0">
+		<Conversation line="Isn't it our job to keep 'us' safe anywhere?" speaker="1"/>
 		<Conversation line="But we are safe!" speaker="1" maxintensity="0.1"/>
 		<Conversation line="Nowhere is safe..." speaker="1" minintensity="0.4"/>
-		<Conversation line="Look to the better side, my friend." speaker="1" speakertags="optimistic"/>
+		<Conversation line="But nowhere is safe..." speaker="1" minintensity="0.4"/>
+		<Conversation line="Nowhere is safe anyway..." speaker="1" minintensity="0.4"/>
+		<Conversation line="But nowhere is safe anyway..." speaker="1" minintensity="0.4"/>
+		<Conversation line="We're still here, that's what matters." speaker="1" speakertags="optimistic"/>
 	</Conversation>
 	<Conversation line="Let's not talk about this." speaker="1" allowedjobs="captain"/>
 	<Conversation line="We don't need them anyway." speaker="1" speakertags="nonauthoritarian"/>
 	<Conversation line="I'll dump you out of the airlock if you keep ranting shit!" speaker="1" speakertags="rude"/>
-</Conversation>
+</Conversation><!--17 Variant-->
+
+<Conversation line="Thanks god, Morphine existed" speaker="0" allowedjobs="medicaldoctor">
+	<Conversation line="What about it?" speaker="1">
+		<Conversation line="It saves our asses that's why the doctor is thankful." speaker="2"/>
+		<Conversation line="Without it, we would've been dead by now" speaker="2"/>
+	</Conversation>
+	<Conversation line="Haha, yes! I think my organ is damaged, can I have some Morphine?" flags="OpiateWithdrawalMedium">
+		<Conversation line="You're fine by the looks of it, let's save it for later" speaker="0"/>
+	</Conversation>
+</Conversation><!--3 Variant-->
+
+<Conversation line="I just graduated from submarine academy not long ago, any advice?" speaker="0" allowedjobs="assistant">
+	<Conversation line="Don't die, that's it." speaker="1"/>
+	<Conversation line="Don't forget to pack some snacks with you" speaker="1"/>
+	<Conversation line="I don't have any, but! Welcome aboard, young sailor!" speaker="1">
+		<Conversation line="Thank you!" speaker="0"/>
+		<Conversation line="Ready to be a mudraptor food?" speaker="2" speakertags="rude"/>
+	</Conversation>
+	<Conversation line="Didn't I hire you off a freelance roster?" speaker="1" allowedjobs="captain">
+		<Conversation line="" speaker="0"/>
+		<Conversation line="Doesn't mean they're uneducated." speaker="2"/>
+		<Conversation line="Every kind of person is in there." speaker="2"/>
+	</Conversation>
+</Conversation><!--7 Variant-->
+	
+<Conversation line="I want to get out of this hellhole!" speaker="0">
+	<Conversation line="See that thing over there?" speaker="1">
+		<Conversation line="What? What's with the airlock?" speaker="0">
+			<Conversation line="Your way out of this hellhole." speaker="1"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Why don't you just die off then?" speaker="1">
+		<Conversation line="Shut it, no suicide on my submarine." speaker="2" allowedjobs="captain"/>
+	</Conversation>
+</Conversation><!--2 Variant-->
 
 </Conversations>
