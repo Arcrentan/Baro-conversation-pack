@@ -18,9 +18,9 @@
 	<Conversation line="Of course, I've checked every part of our submarine." speaker="1" speakertags="hardworking"/>
 </Conversation><!--6 Variant-->
 
-<Conversation line="Europa is weird" speaker="0">
-	<Conversation line="Sounds more like mysterious" speaker="1" speakertags="agreeable">
-		<Conversation line="Yeah, Europa is more mysterious than weird" speaker="2">
+<Conversation line="Europa is weird." speaker="0">
+	<Conversation line="Sounds more like mysterious." speaker="1" speakertags="agreeable">
+		<Conversation line="Yeah, Europa is more mysterious than weird." speaker="2">
 			<Conversation line="Okay then." speaker="0"/>
 		</Conversation>
 	</Conversation>
@@ -70,16 +70,16 @@
 <Conversation line="Thanks god, Morphine existed" speaker="0" allowedjobs="medicaldoctor">
 	<Conversation line="What about it?" speaker="1">
 		<Conversation line="It saves our asses that's why the doctor is thankful." speaker="2"/>
-		<Conversation line="Without it, we would've been dead by now" speaker="2"/>
+		<Conversation line="Without it, we would've been dead by now." speaker="2"/>
 	</Conversation>
 	<Conversation line="Haha, yes! I think my organ is damaged, can I have some Morphine?" flags="OpiateWithdrawalMedium">
-		<Conversation line="You're fine by the looks of it, let's save it for later" speaker="0"/>
+		<Conversation line="You're fine by the looks of it, let's save it for later." speaker="0"/>
 	</Conversation>
 </Conversation><!--3 Variant-->
 
 <Conversation line="I just graduated from submarine academy not long ago, any advice?" speaker="0" allowedjobs="assistant">
 	<Conversation line="Don't die, that's it." speaker="1"/>
-	<Conversation line="Don't forget to pack some snacks with you" speaker="1"/>
+	<Conversation line="Don't forget to pack some snacks with you." speaker="1"/>
 	<Conversation line="I don't have any, but! Welcome aboard, young sailor!" speaker="1">
 		<Conversation line="Thank you!" speaker="0"/>
 		<Conversation line="Ready to be a mudraptor food?" speaker="2" speakertags="rude"/>
