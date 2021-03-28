@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="communityconversation" Language="Castilian Spanish">
+
+<!-- Generic conversation -->
+
+<Conversation line="¿Hemos comprobado nuestro equipo antes de salir?" flags="Initial" speaker="0">
+	<Conversation line="Sí, lo hicimos." speaker="1"/>
+	<Conversation line="Sí." speaker="1" speakertags="simple"/>
+	<Conversation line="En realidad, podríamos tener el problema con el reactor." speaker="1" speakertags="humorous">
+		<Conversation line="Espera, ¿en serio?" speaker="0">
+			<Conversation line="¡Era una broma!" speaker="1">
+				<Conversation line="¡Joder, vete a la mierda!" speaker="0" speakertags="rude"/>
+				<Conversation line="No bromees con eso, compañero." speaker="3"/>
+				<Conversation line="Déjalo, no es el momento." speaker="3" speakertags="professional"/>
+			</Conversation>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Por supuesto, he comprobado cada milímetro del submarino." speaker="1" speakertags="hardworking"/>
+</Conversation><!--6 Variant-->
+
+<Conversation line="Europa es un sitio raro." speaker="0">
+	<Conversation line="Parece más bien misterioso." speaker="1" speakertags="agreeable">
+		<Conversation line="Sí, Europa es más misteriosa que rara." speaker="2">
+			<Conversation line="Eso es." speaker="0"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="¿Con todos nosotros viviendo bajo el agua? Por supuesto." speaker="1">
+		<Conversation line="Técnicamente, no es exactamente bajo el agua." speaker="2" speakertags="logical"/>
+	</Conversation>
+</Conversation><!--2 Variant-->
+	
+<Conversation line="¡Hay agua en mis botas!" speaker="0">
+	<Conversation line="Sacúdelas" speaker="1"/>
+	<Conversation line="Deja que se sequen" speaker="1"/>
+	<Conversation line="No tienes que quejarte siempre." speaker="1" speakertags="realistic"/>
+</Conversation><!--3 Variant-->
+	
+<Conversation line="Esto sí que es mareante." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
+	<Conversation line="¿Qué es lo que da mareo?" speaker="1">
+		<Conversation line="Perdón, cosas mías." speaker="0"/>
+	</Conversation>
+</Conversation><!--1 Variant-->
+
+<Conversation line="La Coalición tiene que hacer un trabajo mejor." speaker="0" speakertags="political">
+	<Conversation line="Oh Dios, otra vez no..." speaker="1">
+		<Conversation line="Son unos vagos, ni siquiera las cuevas heladas son un lugar seguro." speaker="0">
+			<Conversation line="¿No es nuestro trabajo 'mantenernos' a salvo en cualquier lugar?" speaker="2"/>
+			<Conversation line="Ningún sitio es seguro..." speaker="2" minintensity="0.4"/>
+			<Conversation line="Pero ningún sitio es seguro..." speaker="2" minintensity="0.4"/>
+			<Conversation line="De todos modos, ningún lugar es seguro..." speaker="2" minintensity="0.4"/>
+			<Conversation line="Pero de todos modos ningún lugar es seguro..." speaker="2" minintensity="0.4"/>
+			<Conversation line="Seguimos vivos, eso es lo que importa." speaker="2" speakertags="optimistic"/>
+			<Conversation line="Al menos han hecho algo." speaker="2" speakertags="optimistic"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Son unos vagos, ni siquiera las cuevas heladas son un lugar seguro." speaker="0">
+		<Conversation line="¿No es nuestro trabajo 'mantenernos' a salvo en cualquier lugar?" speaker="1"/>
+		<Conversation line="¡Pero estamos a salvo!" speaker="1" maxintensity="0.1"/>
+		<Conversation line="Ningún sitio es seguro..." speaker="1" minintensity="0.4"/>
+		<Conversation line="Pero ningún sitio es seguro..." speaker="1" minintensity="0.4"/>
+		<Conversation line="De todos modos, ningún lugar es seguro..." speaker="1" minintensity="0.4"/>
+		<Conversation line="Pero de todos modos ningún lugar es seguro..." speaker="1" minintensity="0.4"/>
+		<Conversation line="Seguimos aquí, eso es lo que importa." speaker="1" speakertags="optimistic"/>
+	</Conversation>
+	<Conversation line="No hablemos de eso." speaker="1" allowedjobs="captain"/>
+	<Conversation line="De todos modos, no los necesitamos." speaker="1" speakertags="nonauthoritarian"/>
+	<Conversation line="¡Te tiraré por la esclusa si sigues despotricando mierdas!" speaker="1" speakertags="rude"/>
+</Conversation><!--17 Variant-->
+
+<Conversation line="Gracias a Dios, la morfina existe" speaker="0" allowedjobs="medicaldoctor">
+	<Conversation line="¿A qué viene eso?" speaker="1">
+		<Conversation line="Nos salva el culo, por eso el médico está agradecido." speaker="2"/>
+		<Conversation line="Sin ella, ya habríamos muerto." speaker="2"/>
+	</Conversation>
+	<Conversation line="¡Ja, ja, sí! Creo que tengo algún órgano dañado, ¿puedes darme un poco de morfina?" flags="OpiateWithdrawalMedium">
+		<Conversation line="Tienes pinta de estar bien, mejor reservarla para otro momento." speaker="0"/>
+	</Conversation>
+</Conversation><!--3 Variant-->
+
+<Conversation line="Acabo de salir de la academia de submarinos hace poco, ¿algún consejo?" speaker="0" allowedjobs="assistant">
+	<Conversation line="No morir, con eso basta." speaker="1"/>
+	<Conversation line="No olvides guardar algo para picar." speaker="1"/>
+	<Conversation line="No tengo nada para ofrecerte ahora, pero... ¡Bienvenido a bordo, joven marinero!" speaker="1">
+		<Conversation line="¡Gracias!" speaker="0"/>
+		<Conversation line="¿Preparado para ser carnaza de fangorraptor?" speaker="2" speakertags="rude"/>
+	</Conversation>
+	<Conversation line="¿No te he contratado de la plantilla de autónomos?" speaker="1" allowedjobs="captain">
+		<Conversation line="" speaker="0"/>
+		<Conversation line="No significa que sean incultos." speaker="2"/>
+		<Conversation line="Hay de todo ahí metidos." speaker="2"/>
+	</Conversation>
+</Conversation><!--7 Variant-->
+	
+<Conversation line="I want to get out of this hellhole!" speaker="0">
+	<Conversation line="See that thing over there?" speaker="1">
+		<Conversation line="What? What's with the airlock?" speaker="0">
+			<Conversation line="Your way out of this hellhole." speaker="1"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Why don't you just die off then?" speaker="1">
+		<Conversation line="Shut it, no suicide on my submarine." speaker="2" allowedjobs="captain"/>
+	</Conversation>
+</Conversation><!--2 Variant-->
+
+</Conversations>

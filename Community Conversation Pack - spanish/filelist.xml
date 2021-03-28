@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="[Es- Esp] Community Conversation Pack" path="Mods/Community Conversation Pack - spanish/filelist.xml" corepackage="false" gameversion="0.12.0.3" steamworkshopid="2435017882" installtime="1616859042">
+  <NPCConversations file="Mods/Community Conversation Pack - spanish/Conversation_castilian_spanish.xml" />
+  <NPCConversations file="Mods/Community Conversation Pack - spanish/Trait_castilian_spanish.xml" />
+  <Text file="Mods/Community Conversation Pack - spanish/Text_castilian_spanish.xml" />
+  <None file="Mods/Community Conversation Pack - spanish/PreviewImage.jpg" />
+</contentpackage>
