@@ -23,5 +23,5 @@ Please refer to vanilla's conversation file for now.
   communitytranslations (https://github.com/communitytranslations)
 ### What is it adding
  This translation adds support to the Spanish language.
-### Link to Polonized mod
- [Steam workshop](Not Uploaded Yet)
+### Link to Steam Worshop Spanish mod
+ [Steam workshop] (Not Uploaded Yet)
