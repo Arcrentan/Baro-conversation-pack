@@ -18,7 +18,7 @@ Please refer to vanilla's conversation file for now.
 
 ## Spanish translation
 ### State
- **Woring on itk**
+ **Woring on it**
 ### Spanish translation creator
   communitytranslations (https://github.com/communitytranslations)
 ### What is it adding
