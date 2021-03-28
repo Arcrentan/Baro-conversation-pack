@@ -15,3 +15,13 @@ If you need your own personal modification that doesn't fit well, then make your
 
 Documentation on how you can contribute and what kind of tags and attribute you can use will be made later on, 
 Please refer to vanilla's conversation file for now.
+
+## Spanish translation
+### State
+ **Woring on itk**
+### Spanish translation creator
+  communitytranslations (https://github.com/communitytranslations)
+### What is it adding
+ This translation adds support to the Spanish language.
+### Link to Polonized mod
+ [Steam workshop](Not Uploaded Yet)
