@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Conversations identifier="communityconversation" Language="Castilian Spanish">
+<Conversations identifier="communityconversation" Language="English">
 
 <!-- Generic conversation -->
 
@@ -19,6 +19,7 @@
 </Conversation><!--6 Variant-->
 
 <Conversation line="Europa es un sitio raro." speaker="0">
+	<Conversation line="" speaker="0"/>
 	<Conversation line="Parece más bien misterioso." speaker="1" speakertags="agreeable">
 		<Conversation line="Sí, Europa es más misteriosa que rara." speaker="2">
 			<Conversation line="Eso es." speaker="0"/>
@@ -27,19 +28,21 @@
 	<Conversation line="¿Con todos nosotros viviendo bajo el agua? Por supuesto." speaker="1">
 		<Conversation line="Técnicamente, no es exactamente bajo el agua." speaker="2" speakertags="logical"/>
 	</Conversation>
-</Conversation><!--2 Variant-->
-	
-<Conversation line="¡Hay agua en mis botas!" speaker="0">
-	<Conversation line="Sacúdelas" speaker="1"/>
-	<Conversation line="Deja que se sequen" speaker="1"/>
-	<Conversation line="No tienes que quejarte siempre." speaker="1" speakertags="realistic"/>
 </Conversation><!--3 Variant-->
 	
+<Conversation line="¡Hay agua en mis botas!" speaker="0">
+	<Conversation line="" speaker="0"/>
+	<Conversation line="Sacúdelas." speaker="1"/>
+	<Conversation line="Deja que se sequen." speaker="1"/>
+	<Conversation line="No tienes que quejarte todo el rato." speaker="1" speakertags="realistic"/>
+</Conversation><!--4 Variant-->
+	
 <Conversation line="Esto sí que es mareante." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
+	<Conversation line="" speaker="0"/>
 	<Conversation line="¿Qué es lo que da mareo?" speaker="1">
 		<Conversation line="Perdón, cosas mías." speaker="0"/>
 	</Conversation>
-</Conversation><!--1 Variant-->
+</Conversation><!--2 Variant-->
 
 <Conversation line="La Coalición tiene que hacer un trabajo mejor." speaker="0" speakertags="political">
 	<Conversation line="Oh Dios, otra vez no..." speaker="1">
@@ -54,8 +57,8 @@
 		</Conversation>
 	</Conversation>
 	<Conversation line="Son unos vagos, ni siquiera las cuevas heladas son un lugar seguro." speaker="0">
-		<Conversation line="¿No es nuestro trabajo 'mantenernos' a salvo en cualquier lugar?" speaker="1"/>
-		<Conversation line="¡Pero estamos a salvo!" speaker="1" maxintensity="0.1"/>
+		<Conversation line="No es nuestro trabajo 'mantenernos' a salvo en cualquier lugar?" speaker="1"/>
+		<Conversation line="¡Pero estamos a salvo!"" speaker="1" maxintensity="0.1"/>
 		<Conversation line="Ningún sitio es seguro..." speaker="1" minintensity="0.4"/>
 		<Conversation line="Pero ningún sitio es seguro..." speaker="1" minintensity="0.4"/>
 		<Conversation line="De todos modos, ningún lugar es seguro..." speaker="1" minintensity="0.4"/>
@@ -79,27 +82,66 @@
 
 <Conversation line="Acabo de salir de la academia de submarinos hace poco, ¿algún consejo?" speaker="0" allowedjobs="assistant">
 	<Conversation line="No morir, con eso basta." speaker="1"/>
-	<Conversation line="No olvides guardar algo para picar." speaker="1"/>
+	<Conversation line="No olvides llevar algo para picar." speaker="1"/>
 	<Conversation line="No tengo nada para ofrecerte ahora, pero... ¡Bienvenido a bordo, joven marinero!" speaker="1">
 		<Conversation line="¡Gracias!" speaker="0"/>
 		<Conversation line="¿Preparado para ser carnaza de fangorraptor?" speaker="2" speakertags="rude"/>
 	</Conversation>
-	<Conversation line="¿No te he contratado de la plantilla de autónomos?" speaker="1" allowedjobs="captain">
+	<Conversation line="¿No te contraté de la lista de autónomos?" speaker="1" allowedjobs="captain">
 		<Conversation line="" speaker="0"/>
 		<Conversation line="No significa que sean incultos." speaker="2"/>
-		<Conversation line="Hay de todo ahí metidos." speaker="2"/>
+		<Conversation line="Hay de todo ahí metido." speaker="2"/>
 	</Conversation>
 </Conversation><!--7 Variant-->
 	
-<Conversation line="I want to get out of this hellhole!" speaker="0">
-	<Conversation line="See that thing over there?" speaker="1">
-		<Conversation line="What? What's with the airlock?" speaker="0">
-			<Conversation line="Your way out of this hellhole." speaker="1"/>
+<Conversation line="¡Quiero salir de este maldito infierno!" speaker="0">
+	<Conversation line="¿Ves esa cosa de ahí?" speaker="1">
+		<Conversation line="¿Eso? ¿Qué pasa con la esclusa?" speaker="0">
+			<Conversation line="Es la forma de salir de este infierno." speaker="1"/>
 		</Conversation>
 	</Conversation>
-	<Conversation line="Why don't you just die off then?" speaker="1">
-		<Conversation line="Shut it, no suicide on my submarine." speaker="2" allowedjobs="captain"/>
+	<Conversation line="¿Por qué no te mueres entonces?" speaker="1">
+		<Conversation line="Silencio, no permitiré suicidios en mi submarino." speaker="2" allowedjobs="captain"/>
 	</Conversation>
 </Conversation><!--2 Variant-->
+	
+<Conversation line="El otro día vi una mancha extraña en el sonar, y acaba de desaparecer..." speaker="0">
+	<Conversation line="" speaker="0"/>
+	<Conversation line="¡Po-podría ser un monstruo observándonos!" speaker="1" speakertags="fearful">
+		<Conversation line="" speaker="0"/>
+		<Conversation line="¡BUU!" speaker="2">
+			<Conversation line="¡¡¡AHHHHHHH!!!" speaker="1"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Podría ser que estés alucinando." speaker="1" allowedjobs="medicaldoctor"/>
+	<Conversation line="Puedes estar alucinando." speaker="1" speakertags="perceptive"/>
+	<Conversation line="Probablemente sea un pez." speaker="1" speakertags="optimistic"/>
+	<Conversation line="Probablemente no era nada." speaker="1"/>
+	<Conversation line="Los dispositivos de sonar suelen fallar bastante." speaker="1" speakertags="logical"/>
+	<Conversation line="¡Es tu puta madre!" speaker="1" speakertags="rude">
+		<Conversation line="" speaker="0"/>
+		<Conversation line="¡Oye! ¡Para!" speaker="2" allowedjobs="captain"/>
+	</Conversation>
+	<Conversation line="¿Cuándo ocurrió eso?" speaker="1" speakertags="curious">
+		<Conversation line="Uhhh, cuando estábamos en esa... ¿Estación con pinta de uva gigante?" speaker="0"/>
+	</Conversation>
+</Conversation><!--11 Variant-->
+	
+<Conversation line="Colegas ¿Sabéis algo de Astronomía?" speaker="0" speakertags="scholarly">
+	<Conversation line="" speaker="0"/>
+	<Conversation line="¿Tiene que ver con lo de que Europa es plana?" speaker="1">
+		<Conversation line="¿No? No importa." speaker="0"/>
+		<Conversation line="¿No? ¡Es un estudio y conocimiento sobre el planeta y el espacio! ¡Y Europa es redonda!" speaker="0">
+			<Conversation line="" speaker="0"/>
+			<Conversation line="Genial, supongo." speaker="1"/>
+			<Conversation line="Todos sabemos que todo es plano, deja de soñar despierto." speaker="2">
+				<Conversation line="" speaker="0"/>
+				<Conversation line="Por eso habías preguntado lo de sentirte plano." speaker="3"/>
+				<Conversation line="Por eso habías preguntado lo de sentirte plano." speaker="0"/>
+				<Conversation line="Por el amor de Dios..." speaker="0"/>
+			</Conversation>
+		</Conversation>
+	</Conversation>
+</Conversation><!--8 Variant-->
 
 </Conversations>
