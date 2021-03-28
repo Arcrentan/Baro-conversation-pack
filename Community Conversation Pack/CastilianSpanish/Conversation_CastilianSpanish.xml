@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Conversations identifier="communityconversation" Language="Castilian Spanish">
+<Conversations identifier="communityconversation" Language="Castilian Spanish" nowhitespace="False">
 
 <!-- Generic conversation -->
 
 <Conversation line="¿Hemos comprobado nuestro equipo antes de salir?" flags="Initial" speaker="0">
 	<Conversation line="Sí, lo hicimos." speaker="1"/>
 	<Conversation line="Sí." speaker="1" speakertags="simple"/>
-	<Conversation line="En realidad, podríamos tener el problema con el reactor." speaker="1" speakertags="humorous">
+	<Conversation line="En realidad, podríamos tener un problema en el reactor." speaker="1" speakertags="humorous">
 		<Conversation line="Espera, ¿en serio?" speaker="0">
-			<Conversation line="¡Era una broma!" speaker="1">
+			<Conversation line="¡Era broma!" speaker="1">
 				<Conversation line="¡Joder, vete a la mierda!" speaker="0" speakertags="rude"/>
 				<Conversation line="No bromees con eso, compañero." speaker="3"/>
 				<Conversation line="Déjalo, no es el momento." speaker="3" speakertags="professional"/>
@@ -37,17 +37,17 @@
 	<Conversation line="No tienes que quejarte todo el rato." speaker="1" speakertags="realistic"/>
 </Conversation><!--4 Variant-->
 	
-<Conversation line="Esto sí que es mareante." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
+<Conversation line="Creo que me estoy mareando." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
 	<Conversation line="" speaker="0"/>
-	<Conversation line="¿Qué es lo que da mareo?" speaker="1">
-		<Conversation line="Perdón, cosas mías." speaker="0"/>
+	<Conversation line="¿Te estás mareando?" speaker="1">
+		<Conversation line="Nada, cosas mías." speaker="0"/>
 	</Conversation>
 </Conversation><!--2 Variant-->
 
-<Conversation line="La Coalición tiene que hacer un trabajo mejor." speaker="0" speakertags="political">
+<Conversation line="La Coalición tiene que hacer mejor su trabajo." speaker="0" speakertags="political">
 	<Conversation line="Oh Dios, otra vez no..." speaker="1">
 		<Conversation line="Son unos vagos, ni siquiera las cuevas heladas son un lugar seguro." speaker="0">
-			<Conversation line="¿No es nuestro trabajo 'mantenernos' a salvo en cualquier lugar?" speaker="2"/>
+			<Conversation line="¿No es nuestro trabajo mantenernos a salvo en cualquier lugar?" speaker="2"/>
 			<Conversation line="Ningún sitio es seguro..." speaker="2" minintensity="0.4"/>
 			<Conversation line="Pero ningún sitio es seguro..." speaker="2" minintensity="0.4"/>
 			<Conversation line="De todos modos, ningún lugar es seguro..." speaker="2" minintensity="0.4"/>
@@ -58,7 +58,7 @@
 	</Conversation>
 	<Conversation line="Son unos vagos, ni siquiera las cuevas heladas son un lugar seguro." speaker="0">
 		<Conversation line="No es nuestro trabajo 'mantenernos' a salvo en cualquier lugar?" speaker="1"/>
-		<Conversation line="¡Pero estamos a salvo!"" speaker="1" maxintensity="0.1"/>
+		<Conversation line="¡Pero estamos a salvo!" speaker="1" maxintensity="0.1"/>
 		<Conversation line="Ningún sitio es seguro..." speaker="1" minintensity="0.4"/>
 		<Conversation line="Pero ningún sitio es seguro..." speaker="1" minintensity="0.4"/>
 		<Conversation line="De todos modos, ningún lugar es seguro..." speaker="1" minintensity="0.4"/>
