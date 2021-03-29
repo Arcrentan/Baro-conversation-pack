@@ -6,4 +6,7 @@
   <NPCConversations file="Mods/Community Conversation Pack/CastilianSpanish/Conversation_CastilianSpanish.xml" />
   <Text file="Mods/Community Conversation Pack/CastilianSpanish/Text_CastilianSpanish.xml" />
   <NPCConversations file="Mods/Community Conversation Pack/CastilianSpanish/Trait_CastilianSpanish.xml" />
+  <NPCConversations file="Mods/Community Conversation Pack/Polish/Conversation_Polish.xml" />
+  <Text file="Mods/Community Conversation Pack/Polish/Text_Polish.xml" />
+  <NPCConversations file="Mods/Community Conversation Pack/Polish/Trait_Polish.xml" />
 </contentpackage>
