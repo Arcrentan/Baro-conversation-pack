@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="communityconversation" Language="Polish">
+
+<!-- Generic conversation -->
+
+<Conversation line="Sprawdziliśmy wszystko przed wypłynięciem?" flags="Initial" speaker="0">
+	<Conversation line="Według mnie, tak." speaker="1"/>
+	<Conversation line="Tak." speaker="1" speakertags="simple"/>
+	<Conversation line="Aktualnie możemy mieć drobne problemy z reaktorem." speaker="1" speakertags="humorous">
+		<Conversation line="Czekaj, serio?" speaker="0">
+			<Conversation line="Spokojnie, tylko żartuje." speaker="1">
+				<Conversation line="Lepiej przestań sobie żartować!" speaker="0" speakertags="rude"/>
+				<Conversation line="Nie żartuj sobie, stary." speaker="3"/>
+				<Conversation line="Na żarty nie ma to czasu i miejsca." speaker="3" speakertags="professional"/>
+			</Conversation>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Oczywiście, wszystko jest sprawdzone!" speaker="1" speakertags="hardworking"/>
+</Conversation>
+
+<Conversation line="Europa jest dziwna" speaker="0">
+	<Conversation line="Dla mnie bardziej tajemnicza" speaker="1" speakertags="agreeable">
+		<Conversation line="Ta, Europa jest bardziej tajemnicza jak dziwna." speaker="2">
+			<Conversation line="Dobrze więc" speaker="0"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Czy my wszyscy żyjemy w wodzie?" speaker="1">
+		<Conversation line="Generalnie tak, ale tak naprawdę nie." speaker="2" speakertags="logical"/>
+	</Conversation>
+</Conversation>
+
+<Conversation line="Mam wodę w swoich butach!" speaker="0">
+	<Conversation line="Wylej ją." speaker="1"/>
+	<Conversation line="Spróbuj wysuszyć." speaker="1"/>
+	<Conversation line="Nie musisz za każdym razem narzekać." speaker="1" speakertags="realistic"/>
+</Conversation>
+	
+<Conversation line="To naprawdę zawrotne." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
+	<Conversation line="Co zawrotne." speaker="1">
+		<Conversation line="Wybacz, ale to...ja." speaker="0"/>
+	</Conversation>
+</Conversation>
+
+<Conversation line="Koalicja musi robić lepszą robotę." speaker="0" speakertags="political">
+	<Conversation line="O Boże, nie znowu..." speaker="1">
+		<Conversation line="Nie robi ona nic, aby nas chronić!" speaker="0">
+			<Conversation line="Ale to chyba nie jest ich zadanie, aby nas chronić?" speaker="2"/>
+			<Conversation line="Aktulanie jesteśmy bezpieczni." speaker="2" maxintensity="0.1"/>
+			<Conversation line="Aktualnie..." speaker="2" minintensity="0.4"/>
+			<Conversation line="Spójrz na to z lepszej strony, bracie." speaker="2" speakertags="optimistic"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Oni nic nie robią, aby nas chronić!" speaker="0">
+		<Conversation line="Ale to chyba nie jest ich zadanie, aby nas chronić?" speaker="1"/>
+		<Conversation line="Spokojnie, na razie jesteśmy bezpieczni." speaker="1" maxintensity="0.1"/>
+		<Conversation line="Ta..." speaker="1" minintensity="0.4"/>
+		<Conversation line="Lepiej spójżmy na to z lepszej strony." speaker="1" speakertags="optimistic"/>
+	</Conversation>
+	<Conversation line="Może lepiej po prostu o tym nie rozmawiajmy." speaker="1" allowedjobs="captain"/>
+	<Conversation line="I tak mało by nam dali." speaker="1" speakertags="nonauthoritarian"/>
+	<Conversation line="Jeszcze raz, a umieszczę Cię w zrzutni bomb i wystrzelę jako żarcie dla Pełzaczy." speaker="1" speakertags="rude"/>
+</Conversation>
+
+<Conversation line="Dzięki Bogu Morfina istnieje." speaker="0" allowedjobs="medicaldoctor">
+	<Conversation line="I co związku z tym?" speaker="1">
+		<Conversation line="Bo to nam nie raz ratuje życie, dlatego lekarz jest wdzięczny." speaker="2"/>
+		<Conversation line="Bez tego bylibyśmy martwi teraz." speaker="2"/>
+	</Conversation>
+	<Conversation line="Haha, tak! Myślę, że jestem w nie najlepszej kondycji, może mamy trochę Morfiny?" flags="OpiateWithdrawalMedium">
+		<Conversation line="Nie sądzę, że dawanie jej teraz dla ciebie ma sens. Przechowam ją na później." speaker="0"/>
+	</Conversation>
+</Conversation><!--3 Variant-->
+
+<Conversation line="Niedawno ukończyłem akademię okrętów podwodnych, masz jakieś rady?" speaker="0" allowedjobs="assistant">
+	<Conversation line="Nie umierać ze swojej głupoty." speaker="1"/>
+	<Conversation line="I nie zapomnieć, aby wziąść trochę smakołyków na wyprawę." speaker="1"/>
+	<Conversation line="Cóż, nie mamy żadnych smakołyków, ale witamy na pokładzie!" speaker="1">
+		<Conversation line="Dzięki!" speaker="0"/>
+		<Conversation line="Gotowy na jedzenie z Mudraptorów?" speaker="2" speakertags="rude"/>
+	</Conversation>
+	<Conversation line="Mi się wydaje, że zatrudniłem ciebie z listy bez robotnych?" speaker="1" allowedjobs="captain">
+		<Conversation line="..." speaker="0"/>
+		<Conversation line="Może." speaker="2"/>
+		<Conversation line="Teoretycznie każdy kto żywy nadaje się tutaj. Więc w czym problem?" speaker="2"/>
+	</Conversation>
+</Conversation><!--7 Variant-->
+	
+<Conversation line="Chcę się wydostać z tego piekła!" speaker="0">
+	<Conversation line="Hej, chyba mam coś, co pozwoli Ci to zrobić." speaker="1">
+		<Conversation line="Co dokładniej? Masz na myśli Śluzę powietrzną?" speaker="0">
+			<Conversation line="Wejdź a sam się przekonasz." speaker="1"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Dlaczego więc jeszcze nie zginąłeś?" speaker="1">
+		<Conversation line="Cisza! Nikt nie ma prawa zginąć na moim pokładzie." speaker="2" allowedjobs="captain"/>
+	</Conversation>
+</Conversation><!--2 Variant-->
+	
+<Conversation line="Hmm, dziwne. Zauważyłem jakąś zjawę na pokładzie, która szybko znikła." speaker="0">
+	<Conversation line="Chyba masz zwidy...lub ktoś już był na tej łodzi przed nami." speaker="0"/>
+	<Conversation line="Zaraz, czy to był...d-duch?" speaker="1" speakertags="fearful">
+		<Conversation line="Eee, nie sądzę." speaker="0"/>
+		<Conversation line="Może tak, może nie." speaker="2">
+			<Conversation line="Najwyżej się wezwie pogromców duchów na pokład." speaker="1"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Możesz mieć halucynacje." speaker="1" allowedjobs="medicaldoctor"/>
+	<Conversation line="Chyba masz halucynacje." speaker="1" speakertags="perceptive"/>
+	<Conversation line="Chyba to był tylko obłok dymu z jednej z maszyn." speaker="1" speakertags="optimistic"/>
+	<Conversation line="Albo nic." speaker="1"/>
+	<Conversation line="Od długiej pracy na statku możesz być już zmęczony." speaker="1" speakertags="logical"/>
+	<Conversation line="To był tylko twój cień! Nie wariuj." speaker="1" speakertags="rude">
+		<Conversation line="..." speaker="0"/>
+		<Conversation line="Dobra, koniec już tych żartów!" speaker="2" allowedjobs="captain"/>
+	</Conversation>
+	<Conversation line="Serio mówisz?" speaker="1" speakertags="curious">
+		<Conversation line="Trudno mi powiedzieć, co dokłądniej widziałem." speaker="0"/>
+	</Conversation>
+</Conversation><!--11 Variant-->
+	
+<Conversation line="Hej, czy ktoś wie coś o Astronomi?" speaker="0" speakertags="scholarly">
+	<Conversation line="Hmm..." speaker="0"/>
+	<Conversation line="To jest coś na temat dlaczego Europa jest płaska?" speaker="1">
+		<Conversation line="Nie i się niestety mylisz." speaker="0"/>
+		<Conversation line="To nauka i wiedza o planecie i kosmosie! A Europa jest okrągła!" speaker="0">
+			<Conversation line="Jasne?" speaker="0"/>
+			<Conversation line="Um, to spoko...chyba." speaker="1"/>
+			<Conversation line="My wszyscy wiemy, że wszystko jest płaskie, prawda?" speaker="2">
+				<Conversation line="..." speaker="0"/>
+				<Conversation line="Wasze mądrości zalecałbym zachować na później, kiedy przyjdzie na to czas..." speaker="3" allowedjobs="captain" />
+			</Conversation>
+		</Conversation>
+	</Conversation>
+</Conversation><!--8 Variant-->
+
+</Conversations>
