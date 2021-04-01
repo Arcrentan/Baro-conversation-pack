@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Conversations identifier="communityconversation" Language="English">
 
-<!-- Generic conversation -->
+<!-- New entries are added below, in "newer conversation" order -->
 
 <Conversation line="Have we checked our equipment before departing?" flags="Initial" speaker="0">
 	<Conversation line="Yes, we did." speaker="1"/>
@@ -143,5 +143,208 @@
 		</Conversation>
 	</Conversation>
 </Conversation><!--8 Variant-->
+	
+<!--V1.0 | 10 Convo | 68 Variant-->
+
+<Conversation line="Before exploring a cave, have explosive with you." speaker="0">
+	<Conversation line="What? Why?" speaker="1">
+		<Conversation line="You wouldn't know if you will make it out alive." speaker="0"/>
+	</Conversation>
+</Conversation><!--1 Variant-->
+
+<Conversation line="Did one of you took my snack from the locker?" speaker="0" speakertags="considerate,caring">
+	<Conversation line="The chips from that locker in the crew room?" speaker="1">
+		<Conversation line="Yes, that one." speaker="0">
+			<Conversation line="" speaker="0"/>
+			<Conversation line="I'll pay you back, I guess." speaker="1">
+			<Conversation line="Ah, sorry!" speaker="1" speakertags="considerate,caring">
+				<Conversation line="Don't worry about it." speaker="0"/>
+			</Conversation>
+		</Conversation>
+	</Conversation>
+</Conversation><!--3 Variant-->
+	
+<Conversation line="Which one of you took my snack from the locker!" speaker="0">
+	<Conversation line="The chips from that locker in the crew room?" speaker="1">
+		<Conversation line="Yes, you fucking thief!" speaker="0" speakertags="rude">
+			<Conversation line="" speaker="0"/>
+			<Conversation line="Ah, I'm terribly sorry!" speaker="1" speakertags="considerate,caring">
+				<Conversation line="Piss off, will ya?" speaker="0"/>
+				<Conversation line="The fuck am I gonna chew on now?" speaker="0"/>
+			</Conversation>
+		</Conversation>
+		<Conversation line="Yeah!" speaker="0">
+			<Conversation line="" speaker="0"/>
+			<Conversation line="Ah, I'm sorry!" speaker="1" speakertags="considerate,caring">
+				<Conversation line="You better buy me back next station." speaker="0"/>
+				<Conversation line="sigh." speaker="0"/>
+			</Conversation>
+		</Conversation>
+	</Conversation>
+</Conversation><!--5 Variant-->
+
+<!-- Addition by Radioactive Beer can-->
+<!-- Initial conversation-->
+
+<Conversation line="Alright lads, you know the drill. It's time to get paid!" speaker="0" flags="Initial" allowedjobs="captain">
+	<Conversation line="" speaker="0"/>
+	<Conversation line="Aye aye." speaker="1">
+		<Conversation line="Aye, sir!" speaker="2"/>
+		<Conversation line="Copy capitan!" speaker="2" speakertags="brokenenglish"/>
+	</Conversation>
+</Conversation><!--3 Variant-->
+
+<Conversation line="Another day, another dollar. Lets get us some money crew!" speaker="0" flags="Initial" allowedjobs="captain">
+	<Conversation line="" speaker="0"/>
+	<Conversation line="Aye aye." speaker="1">
+		<Conversation line="Aye, sir!" speaker="2"/>
+		<Conversation line="Yes captain!" speaker="2" speakertags="brokenenglish"/>
+	</Conversation>
+</Conversation><!--3 Variant-->
+
+<!-- Generic conversation -->
+
+<Conversation line="So, have any of you been reading up on 'The Europan' lately?" speaker="0" maxintensity="0.3">
+	<Conversation line="Which Volume?" speaker="1">
+		<Conversation line="54, the one about the Expanding Radiation and Extinct Mantis..." speaker="0">
+			<Conversation line="...And Earth being silent for over 50 Years now. What do you guys think, nuclear war or something else?" speaker="0"/>
+		</Conversation>
+		<Conversation line="The one about Earth going silent. It's been over 50 Years but... I don't know, my parents wouldn't stop talking about it. I've never been there before, have any of you?" speaker="0">
+			<Conversation line="My old man talked a lot about Earth too. From what he told me, it wasn't doing so well. Who knows what's going on over there." speaker="1"/>
+			<Conversation line="Earth... That's the planet we're from, isn't it?" speaker="1"/>
+			<Conversation line="I stopped reading the news after Volume 42." speaker="1"/>
+			<Conversation line="The only thing I know about Earth is that they called it a 'Water world'. What a joke." speaker="1" speakertags="joker"/>
+		</Conversation>
+	</Conversation>
+</Conversation><!--5 Variant-->
+
+<Conversation line="Can't wait to deal with the Expanding Radiation." speaker="0" allowedjobs="medicaldoctor" speakertags="laid-back,joker" maxintensity="0.3">
+	<Conversation line="Antirad stocks are gonna plummet almost as fast as our Morphine." speaker="0">
+		<Conversation line="Wait, we're out of Morphine?" speaker="1">
+			<Conversation line="We're going to be, thanks to you clowns." speaker="0"/>
+			<Conversation line="We're going to be once you leeches start getting hurt." speaker="0"/>
+		</Conversation>
+	</Conversation>
+</Conversation><!--2 Variant-->
+
+<!-- PsychosisSelf conversation -->
+
+<Conversation line="Help... Help... Help... Help... Help... Help..." speaker="0" flags="PsychosisSelf">
+	<Conversation line="...Please..." speaker="0" flags="PsychosisSelf"/>
+</Conversation><!--1 Variant-->
+
+<Conversation line="I need to clean... Clean this... This blood. I need..." speaker="0" flags="PsychosisSelf">
+	<Conversation line="...There's so much blood..." speaker="0" flags="PsychosisSelf"/>
+</Conversation><!--1 Variant-->
+
+<Conversation line="Everything's falling. Everything's falling. Everything's falling." speaker="0" flags="PsychosisSelf">
+	<Conversation line="It's crushing me." speaker="0" flags="PsychosisSelf"/>
+</Conversation><!--1 Variant-->
+
+
+<Conversation line="They're all dead. I'm sorry, I'm sorry I'm so sorry I'm sorry I'm sorry I can't do anything I'm sorry please stopscreamingitwasn'tmyfault" speaker="0" flags="PsychosisSelf">
+	<Conversation line="Imisseveryonewhydidtheyleavemedon'tleavemedon'tleaveme..." speaker="0" flags="PsychosisSelf"/>
+</Conversation><!--1 Variant-->
+
+<!-- 60%-80% Intensity conversation -->
+
+<Conversation line="Come on guys, we've got this!" speaker="0" minintensity="0.6" maxintensity="0.8">
+	<Conversation line="Shit... Shit!" speaker="1" speakertags="fearful"/>
+</Conversation><!--1 Variant-->
+
+<!-- 80%-100% Intensity conversation -->
+
+<Conversation line="Oh for fucks sake!" speaker="0" minintensity="0.8" maxintensity="0.9">
+	<Conversation line="We can do this!" speaker="1"/>
+</Conversation><!--1 Variant-->
+
+<Conversation line="Come on man! Come on!!!" speaker="0" minintensity="0.8" maxintensity="0.9">
+	<Conversation line="I don't know if we can keep this up!" speaker="1" speakertags="fearful"/>
+</Conversation><!--1 Variant-->
+
+<Conversation line="Oh God please... Please I don't want to die like this please! Captain?!" speaker="0" speakertags="fearful" minintensity="0.8">
+	<Conversation line="Fuck off the Radio!" speaker="1" speakertags="rude"/>
+	<Conversation line="Stop panicking and help us!" speaker="1" />
+	<Conversation line="Focus! Do your job, we'll get out of this alive!" speaker="1" allowedjobs="captain"/>
+	<Conversation line="I hear you kid, you're gonna be fine! Focus on your tasks and we'll be okay!" speaker="1" allowedjobs="captain" speakertags="professional,calm,laid-back"/>
+</Conversation><!--4 Variant-->
+
+<Conversation line="We dove too far Inwards!" speaker="0" speakertags="crazy" minintensity="0.8">
+	<Conversation line="Why the fuck do you keep saying that?!" speaker="1" speakertags="rude"/>
+</Conversation><!--1 Variant-->
+
+<Conversation line="I don't want to die! Why the fuck did you hire me?!" speaker="0" speakertags="fearful" minintensity="0.9">
+	<Conversation line="Why did we hire you?!" speaker="1" speakertags="rude"/>
+	<Conversation line="To do your damn job, now do it!" speaker="1" allowedjobs="captain"/>
+</Conversation><!--2 Variant-->
+
+<Conversation line="We're so fucked!" speaker="0" minintensity="0.9"/><!--1 Variant-->
+
+<Conversation line="Not again..." speaker="0" minintensity="0.9"/><!--1 Variant-->
+
+<Conversation line="This can't be happening!!!" speaker="0" speakertags="fearful" minintensity="0.9"/><!--1 Variant-->
+
+<Conversation line="Why is this happening to me?!" speaker="0" speakertags="fearful" minintensity="0.9"/><!--1 Variant-->
+
+<Conversation line="I don't deserve this... Why?!" speaker="0" speakertags="fearful" minintensity="0.9"/><!--1 Variant-->
+
+<Conversation line="Goddammit! Why did I think this was a good idea?!" speaker="0" minintensity="1"/><!--1 Variant-->
+
+<Conversation line="Guys, come on! We can still do this... Guys?!" speaker="0" minintensity="1"/><!--1 Variant-->
+
+<Conversation line="Mom... Mom I'm sorry... I'm sorry..." speaker="0" minintensity="1"/><!--1 Variant-->
+
+<Conversation line="W-we can still make it right?!" speaker="0" minintensity="1"/><!--1 Variant-->
+
+<Conversation line="I CAN'T TAKE IT ANYMORE!!!" speaker="0" speakertags="fearful" minintensity="1"/>
+	<Conversation line="Then jump out the Airlock!" speaker="1" speakertags="rude"/>
+	<Conversation line="We've got someone Panicking!" speaker="1" />
+	<Conversation line="Everyone get a hold of yourselves and do your jobs!" speaker="1" allowedjobs="captain"/>
+</Conversation><!--3 Variant-->
+
+<Conversation line="I DON'T WANT TO DIE TOO, PLEASE!!!" speaker="0" speakertags="fearful" minintensity="1">
+	<Conversation line="Someone take that guys' fucking radio!" speaker="1" speakertags="rude"/>
+	<Conversation line="Stop screaming through the radio!" speaker="1" />
+	<Conversation line="We're not going to die! Focus on your jobs!" speaker="1" allowedjobs="captain"/>
+</Conversation><!--3 Variant-->
+
+<Conversation line="I CAN'T DIE LIKE THIS!!!" speaker="0" speakertags="fearful" minintensity="1">
+	<Conversation line="I swear to God if you don't stop yelling...!" speaker="1" speakertags="rude"/>
+	<Conversation line="Stop yelling and help us!" speaker="1" />
+	<Conversation line="Stop yelling... Please!" speaker="1" />
+	<Conversation line="No one's going to die if you do your jobs!" speaker="1" allowedjobs="captain"/>
+</Conversation><!--4 Variant-->
+
+<Conversation line="SOMEONE?! ANYONE?! HELP!!!" speaker="0" speakertags="fearful" minintensity="1">
+	<Conversation line="Stop clogging the radio asshole!" speaker="1" speakertags="rude"/>
+	<Conversation line="Stop yelling and help us!" speaker="1" />
+	<Conversation line="Oh God... It's hopeless!" speaker="1" />
+	<Conversation line="Enough! Focus on your jobs and we'll be fine!" speaker="1" allowedjobs="captain"/>
+</Conversation><!--4 Variant-->
+
+<Conversation line="*Rapid Breathing*" speaker="0" minintensity="1"/><!--1 Variant-->
+
+<Conversation line="*Sobbing*" speaker="0" speakertags="fearful" minintensity="1"/><!--1 Variant-->
+
+<Conversation line="*Stressed Breathing*" speaker="0" minintensity="1"/><!--1 Variant-->
+
+<Conversation line="*Quiet Sobbing*" speaker="0" speakertags="fearful" minintensity="1"/><!--1 Variant-->
+
+<!-- SubmarineDeep conversation -->
+
+<Conversation line="Is ah... Hull meant to make too much noise?" speaker="0" flags="SubmarineDeep" speakertags="brokenenglish">
+	<Conversation line="" speaker="0" flags="Casual"/>
+	<Conversation line="It's a lovely sound, isn't it? Makes you want to dive further Inwards." speaker="1" speakertags="crazy"/>
+	<Conversation line="The groaning you mean? Don't worry; Always happens when we dive this deep." speaker="1"/>
+</Conversation><!--3 Variant-->
+
+<Conversation line="Whoa! The hull's making a ton of noise, is that supposed to happen?" speaker="0" flags="SubmarineDeep">
+	<Conversation line="" speaker="0" flags="Casual"/>
+	<Conversation line="It's a lovely sound, isn't it? Makes you want to dive further Inwards." speaker="1" speakertags="crazy"/>
+	<Conversation line="The groaning you mean? Don't worry; Always happens when we dive this deep." speaker="1"/>
+</Conversation><!--3 Variant-->
+<!-- End of Addition by Radioactive Beer can-->
+	
+<!--V1.1 | 36 Convo | 69 Variant-->
 
 </Conversations>
