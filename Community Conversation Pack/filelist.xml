@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Community Conversation Pack" path="Mods/Community Conversation Pack/filelist.xml" corepackage="false" gameversion="0.12.0.3" steamworkshopid="2435017882" installtime="1616944126">
+<contentpackage name="Community Conversation Pack" path="Mods/Community Conversation Pack/filelist.xml" corepackage="false" gameversion="0.12.0.3" steamworkshopid="2435017882" installtime="1617009500">
   <NPCConversations file="Mods/Community Conversation Pack/English/Conversation_English.xml" />
   <NPCConversations file="Mods/Community Conversation Pack/English/Trait_English.xml" />
   <Text file="Mods/Community Conversation Pack/English/Text_English.xml" />
-  <None file="Mods/Community Conversation Pack/English/PreviewImage.jpg" />
+  <NPCConversations file="Mods/Community Conversation Pack/CastilianSpanish/Conversation_CastilianSpanish.xml" />
+  <Text file="Mods/Community Conversation Pack/CastilianSpanish/Text_CastilianSpanish.xml" />
+  <NPCConversations file="Mods/Community Conversation Pack/CastilianSpanish/Trait_CastilianSpanish.xml" />
+  <NPCConversations file="Mods/Community Conversation Pack/Polish/Conversation_Polish.xml" />
+  <Text file="Mods/Community Conversation Pack/Polish/Text_Polish.xml" />
+  <NPCConversations file="Mods/Community Conversation Pack/Polish/Trait_Polish.xml" />
 </contentpackage>
