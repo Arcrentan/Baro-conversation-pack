@@ -87,7 +87,7 @@
 		<Conversation line="¡Gracias!" speaker="0"/>
 		<Conversation line="¿Preparado para ser carnaza de fangorraptor?" speaker="2" speakertags="rude"/>
 	</Conversation>
-	<Conversation line="¿No te contraté de la lista de autónomos?" speaker="1" allowedjobs="captain">
+	<Conversation line="¿No te contraté de la bolsa de trabajo de autónomos?" speaker="1" allowedjobs="captain">
 		<Conversation line="" speaker="0"/>
 		<Conversation line="No significa que sean incultos." speaker="2"/>
 		<Conversation line="Hay de todo ahí metido." speaker="2"/>
