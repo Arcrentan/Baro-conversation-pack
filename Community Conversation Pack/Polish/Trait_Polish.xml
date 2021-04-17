@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Conversations identifier="communitytrait" Language="Polish">
+<Conversations identifier="communitytrait" Language="Polish" nowhitespace="False">
 
 <!-- Positive -->
 <PersonalityTrait name="Accessible"		alloweddialogtags="accessible,none"		commonness="0,5" />
