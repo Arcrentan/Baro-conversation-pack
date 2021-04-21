@@ -70,7 +70,7 @@
 	<Conversation line="I'll dump you out of the airlock if you keep ranting shit!" speaker="1" speakertags="rude"/>
 </Conversation><!--17 Variant-->
 
-<Conversation line="Thanks go morphine exists." speaker="0" allowedjobs="medicaldoctor">
+<Conversation line="Thanks god morphine exists." speaker="0" allowedjobs="medicaldoctor">
 	<Conversation line="What about it?" speaker="1">
 		<Conversation line="It saves our asses, that's why the doctor is thankful." speaker="2"/>
 		<Conversation line="Without it, we would've been dead by now." speaker="2"/>
@@ -346,5 +346,106 @@
 <!-- End of Addition by Radioactive Beer can-->
 	
 <!--V1.1 | 36 Convo | 69 Variant-->
+
+<Conversation line="When will I be done with these junction boxes?" speaker="0" allowedjobs="engineer" maxintensity="0.3">
+	<Conversation line="When will we be done with your complaining?" speakertags="laid-back" speaker="1"/>
+	<Conversation line="When will I be done with healing your burns and lacerations?" speaker="1"  allowedjobs="medicaldoctor"/>
+</Conversation><!--2 Variant-->
+
+<Conversation line="I've faught mudcrabs fiercer than this!" speaker="0" minintensity="0.2" maxintensity="0.6"/><!--1 Variant-->
+
+<Conversation line="I'd kill for a drink." speaker="0"/><!--1 Variant-->
+
+<Conversation line="We've come here to strip this world from its resources, killing its inhabitants. Why are we surprised they are fighting back?" speaker="0" maxintensity="0.5">
+	<Conversation line="They are fighting for survival just as we are." speaker="1">
+		<Conversation line="Then let us see who wins!" speaker="2"/>
+		<Conversation line="Nature is brutal." speaker="0"/>
+	</Conversation>
+	<Conversation line="We are spreading intelligence throughout the stars, these are just animals." speaker="1"/>
+	<Conversation line="You are right, we should embrace the gift of Husk eggs this world gave us. Let us join in communion with The Husk." speaker="1"/>
+	<Conversation line="Don't dwell on it too much, you are just doing your job." speaker="1"/>
+</Conversation><!--5 Variant-->
+
+<Conversation line="How crazy do you have to be to join the Children of The Honkmother?" speaker="0" maxintensity="0.4">
+	<Conversation line="I guess I can imagine losing my mind." speaker="1">
+		<Conversation line="Me too." speaker="2">
+			<Conversation line="Me too." speaker="3">
+				<Conversation line="Me too." speaker="4"/>
+			</Conversation>
+			<Conversation line="Me too I guess." speaker="0"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="I guess some people's minds are more fragile than other's." speakertags="professional" speaker="1"/>
+	<Conversation line="Crazy? It seems kind of rational to me..." speakertags="crazy" speaker="1"/>
+</Conversation><!--4 Variant-->
+
+<Conversation line="If i ever become a husk, I wonder which one of you will kill me." speaker="0">
+	<Conversation line="I will!" speaker="1">
+		<Conversation line="No, I will!" speaker="2">
+			<Conversation line="Thanks." speaker="0"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="You won't, calm down." speaker="1"/>
+	<Conversation line="I won't let that happen, friend" speaker="1" allowedjobs="medicaldoctor"/>
+</Conversation><!--3 Variant-->
+
+<Conversation line="For all I know, any one of you could already be husk infected." speaker="0" minintensity="0.5">
+	<Conversation line="I know I'm not!" speaker="1"/>
+	<Conversation line="Maybe you are." speaker="1"/>
+</Conversation><!--2 Variant-->
+
+<Conversation line="I sure hope there's no traitors onboard." speaker="0" flags="Initial">
+	<Conversation line="I know I'm not!" speaker="1"/>
+	<Conversation line="Maybe you are." speaker="1"/>
+</Conversation><!--2 Variant-->
+
+<Conversation line="So many of them so soon???" speaker="0" minintensity="0.6" flags="Initial">
+	<Conversation line="Never a boring day on Europa!" speaker="1"/>
+</Conversation><!--1 Variant-->
+
+<Conversation line="I hate swimming in these waters. It's so dark." speaker="0" flags="Outside"/>
+	<Conversation line="Then stay inside next time!" speaker="1" flags="Outside"/>
+	<Conversation line="Better you than me!" speaker="1" flags="Inside"/>
+</Conversation><!--2 Variant-->
+
+<Conversation line="What does the barman say to the medic?" speakertags="joker" speaker="0" flags="Casual"/>
+	<Conversation line="What?" speaker="1">
+		<Conversation line="What's your poison?" speaker="0">
+			<Conversation line="Hehe." speaker="1">
+				<Conversation line="I actually don't drink alcohol." speaker="2" allowedjobs="medicaldoctor"/>
+			</Conversation>
+		</Conversation>
+	</Conversation>
+</Conversation><!--1 Variant-->
+
+<Conversation line="Ah fuck! A crawler is coming right at me!" speaker="0" speakertags="fearful" flags="Outside" maxintensity="0"/>
+	<Conversation line="Where is it?" speaker="1">
+		<Conversation line="Oh it's just a fish..." speaker="0"/>
+		<Conversation line="Oh nevermind, it was just my imagination." speaker="0"/>
+	</Conversation>
+</Conversation><!--2 Variant-->
+
+<Conversation line="Do you think Europa is a good place to raise kids?" speaker="0"/>
+	<Conversation line="No" speaker="1">
+		<Conversation line="But you have kids..." speaker="0">
+			<Conversation line="Didn't plan to." speaker="1"/>
+		</Conversation>
+		<Conversation line="I guess so." speaker="1"/>
+	</Conversation>
+	<Conversation line="Sure, if they never leave an outpost..." speaker="1"/>
+</Conversation><!--3 Variant-->
+
+<Conversation line="Has anyone seen my welder?" speaker="0"/>
+	<Conversation line="Does it have your name on it?" speaker="1" speakertags="joker,laid-back">
+		<Conversation line="No..." speaker="0">
+			<Conversation line="Then no." speaker="1"/>
+		</Conversation>
+	</Conversation>
+	<Conversation line="Mishandling equipment is a punishable offense on-board!" speaker="1" speakertags="professional"/>
+	<Conversation line="" speaker="1"/>
+</Conversation><!--3 Variant-->
+
+<!-- End of Addition by Tobivv-->
+<!--V1.2 | 14 Convo | 32 Variant-->
 
 </Conversations>
