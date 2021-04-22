@@ -405,7 +405,7 @@
 	<Conversation line="Never a boring day on Europa!" speaker="1"/>
 </Conversation><!--1 Variant-->
 
-<Conversation line="I hate swimming in these waters. It's so dark." speaker="0" flags="Outside"/>
+<Conversation line="I hate swimming in these waters. It's so dark." speaker="0" flags="Outside">
 	<Conversation line="Then stay inside next time!" speaker="1" flags="Outside"/>
 	<Conversation line="Better you than me!" speaker="1" flags="Inside"/>
 </Conversation><!--2 Variant-->
