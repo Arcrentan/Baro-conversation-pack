@@ -410,7 +410,7 @@
 	<Conversation line="Better you than me!" speaker="1" flags="Inside"/>
 </Conversation><!--2 Variant-->
 
-<Conversation line="What does the barman say to the medic?" speakertags="joker" speaker="0" flags="Casual"/>
+<Conversation line="What does the barman say to the medic?" speakertags="joker" speaker="0" flags="Casual">
 	<Conversation line="What?" speaker="1">
 		<Conversation line="What's your poison?" speaker="0">
 			<Conversation line="Hehe." speaker="1">
@@ -420,14 +420,14 @@
 	</Conversation>
 </Conversation><!--1 Variant-->
 
-<Conversation line="Ah fuck! A crawler is coming right at me!" speaker="0" speakertags="fearful" flags="Outside" maxintensity="0"/>
+<Conversation line="Ah fuck! A crawler is coming right at me!" speaker="0" speakertags="fearful" flags="Outside" maxintensity="0">
 	<Conversation line="Where is it?" speaker="1">
 		<Conversation line="Oh it's just a fish..." speaker="0"/>
 		<Conversation line="Oh nevermind, it was just my imagination." speaker="0"/>
 	</Conversation>
 </Conversation><!--2 Variant-->
 
-<Conversation line="Do you think Europa is a good place to raise kids?" speaker="0"/>
+<Conversation line="Do you think Europa is a good place to raise kids?" speaker="0">
 	<Conversation line="No" speaker="1">
 		<Conversation line="But you have kids..." speaker="0">
 			<Conversation line="Didn't plan to." speaker="1"/>
@@ -437,7 +437,7 @@
 	<Conversation line="Sure, if they never leave an outpost..." speaker="1"/>
 </Conversation><!--3 Variant-->
 
-<Conversation line="Has anyone seen my welder?" speaker="0"/>
+<Conversation line="Has anyone seen my welder?" speaker="0">
 	<Conversation line="Does it have your name on it?" speaker="1" speakertags="joker,laid-back">
 		<Conversation line="No..." speaker="0">
 			<Conversation line="Then no." speaker="1"/>
