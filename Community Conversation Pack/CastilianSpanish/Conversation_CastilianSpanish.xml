@@ -204,7 +204,7 @@
 
 <!-- Generic conversation -->
 
-<Conversation line="¿Alguno de vosotros ha leído últimamente "El Europeo"?" speaker="0" maxintensity="0.3">
+<Conversation line="¿Alguno de vosotros ha leído últimamente 'El Europeo'?" speaker="0" maxintensity="0.3">
 	<Conversation line="¿Qué volumen?" speaker="1">
 		<Conversation line="54, el de la Radiación Expansiva y la Mantis Extinta..." speaker="0">
 			<Conversation line="...y la Tierra lleva en silencio desde hace más de 50 años. ¿Qué pensáis, guerra nuclear o algo diferente?" speaker="0"/>
