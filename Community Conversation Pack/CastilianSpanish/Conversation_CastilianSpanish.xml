@@ -213,7 +213,7 @@
 			<Conversation line="Mi viejo también hablaba mucho de la Tierra. Por lo que me dijo, no le iba muy bien. Quién sabe lo que está pasando allí." speaker="1"/>
 			<Conversation line="La Tierra... Ese es el planeta del que venimos, ¿no?" speaker="1"/>
 			<Conversation line="Dejé de leer las noticias después del volumen 42." speaker="1"/>
-			<Conversation line="Lo único que sé de la Tierra es que la llamaron "mundo del agua". Qué chiste." speaker="1" speakertags="joker"/>
+			<Conversation line="Lo único que sé de la Tierra es que la llamaron 'mundo del agua'. Qué chiste." speaker="1" speakertags="joker"/>
 		</Conversation>
 	</Conversation>
 </Conversation><!--5 Variant-->
