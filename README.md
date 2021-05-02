@@ -16,4 +16,6 @@ If you need your own personal modification that doesn't fit well, then make your
 Documentation on how you can contribute and what kind of tags and attribute you can use will be made later on, 
 Please refer to vanilla's conversation file for now.
 
+Unused traits are disabled, feel free to uncomment them if your conversation changes needs it
+
 I'll probably write a credit file thanking all the contributers and helpers later on, but right now refers to everyone that worked on this, thank you all!
