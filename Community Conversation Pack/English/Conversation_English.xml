@@ -2,6 +2,7 @@
 <Conversations identifier="communityconversation" Language="English">
 
 <!-- New entries are added below, in "newer conversation" order -->
+<!-- New variants are inserted directly, variant count must be updated -->
 
 <Conversation line="Have we checked our equipment before departing?" flags="Initial" speaker="0">
 	<Conversation line="Yes, we did." speaker="1"/>
@@ -15,12 +16,17 @@
 			</Conversation>
 		</Conversation>
 	</Conversation>
+	<Conversation line="Yes, but we're running out of toiletries." speaker="1" />
+	<Conversation line="Yes, have you watered the plant?" speaker="1">
+		<Conversation line="Wait, we have plants?" speaker="2"/>
+	</Conversation>
 	<Conversation line="Of course, I've checked every part of our submarine." speaker="1" speakertags="hardworking"/>
-</Conversation><!--6 Variant-->
+</Conversation><!--8 Variant-->
 
 <Conversation line="Europa is weird." speaker="0">
 	<Conversation line="" speaker="0"/>
 	<Conversation line="More like mysterious." speaker="1" speakertags="agreeable">
+		<Conversation line="Why not both?" speaker="2"/>
 		<Conversation line="Yeah, Europa is more mysterious than weird." speaker="2">
 			<Conversation line="Okay then." speaker="0"/>
 		</Conversation>
@@ -28,7 +34,7 @@
 	<Conversation line="With all of us living underwater? Of course." speaker="1">
 		<Conversation line="Technically, not exactly underwater." speaker="2" speakertags="logical"/>
 	</Conversation>
-</Conversation><!--3 Variant-->
+</Conversation><!--4 Variant-->
 	
 <Conversation line="Theres water in my boots!" speaker="0">
 	<Conversation line="" speaker="0"/>
@@ -144,7 +150,7 @@
 	</Conversation>
 </Conversation><!--8 Variant-->
 	
-<!--V1.0 | 10 Convo | 68 Variant-->
+<!--V1.0 | 10 Convo | 71 Variant-->
 
 <Conversation line="Before exploring a cave, have explosive with you." speaker="0">
 	<Conversation line="What? Why?" speaker="1">
@@ -449,5 +455,13 @@
 
 <!-- End of Addition by Tobivv-->
 <!--V1.2 | 14 Convo | 32 Variant-->
+	
+<Conversation line="Captain." speaker="0">
+	<Conversation line="What?" speaker="1" allowedjobs="captain">
+		<Conversation line="Do we have enough steel?" speaker="0">
+			<Conversation line="Do I have to check that?" speaker="1"/>
+		</Conversation>
+	</Conversation>
+</Conversation><!--1 Variant-->
 
 </Conversations>
