@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Community Conversation Pack" path="Mods/Community Conversation Pack/filelist.xml" corepackage="false" gameversion="0.16.7.0" steamworkshopid="2435017882" installtime="1619604096">
-  <NPCConversations file="Mods/Community Conversation Pack/English/Conversation_English.xml" />
-  <NPCConversations file="Mods/Community Conversation Pack/English/Trait_English.xml" />
-  <Text file="Mods/Community Conversation Pack/English/Text_English.xml" />
-  <NPCConversations file="Mods/Community Conversation Pack/CastilianSpanish/Conversation_CastilianSpanish.xml" />
-  <Text file="Mods/Community Conversation Pack/CastilianSpanish/Text_CastilianSpanish.xml" />
-  <NPCConversations file="Mods/Community Conversation Pack/CastilianSpanish/Trait_CastilianSpanish.xml" />
-  <NPCConversations file="Mods/Community Conversation Pack/Polish/Conversation_Polish.xml" />
-  <Text file="Mods/Community Conversation Pack/Polish/Text_Polish.xml" />
-  <NPCConversations file="Mods/Community Conversation Pack/Polish/Trait_Polish.xml" />
+<contentpackage name="Community Conversation Pack" path="%ModDir%/filelist.xml" corepackage="false" gameversion="0.17.12.0" steamworkshopid="2435017882" installtime="1638728224">
+  <NPCConversations file="%ModDir%/English/Conversation_English.xml" />
+  <NPCConversations file="%ModDir%/English/Trait_English.xml" />
+  <Text file="%ModDir%/English/Text_English.xml" />
+  <NPCConversations file="%ModDir%/CastilianSpanish/Conversation_CastilianSpanish.xml" />
+  <Text file="%ModDir%/CastilianSpanish/Text_CastilianSpanish.xml" />
+  <NPCConversations file="%ModDir%/CastilianSpanish/Trait_CastilianSpanish.xml" />
+  <NPCConversations file="%ModDir%/Polish/Conversation_Polish.xml" />
+  <Text file="%ModDir%/Polish/Text_Polish.xml" />
+  <NPCConversations file="%ModDir%/Polish/Trait_Polish.xml" />
 </contentpackage>

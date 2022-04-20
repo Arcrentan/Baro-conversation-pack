@@ -1,296 +1,255 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Conversations identifier="communityconversation" Language="Polish">
-
-<!-- Translated by GamePlayer from /Community Conversation Pack/English/Conversation_English.xml (very modified) -->
-
-<Conversation line="Sprawdziliśmy wszystko przed wypłynięciem?" flags="Initial" speaker="0">
-	<Conversation line="Mi się wydaje, że tak." speaker="1"/>
-	<Conversation line="Tak." speaker="1" speakertags="simple"/>
-	<Conversation line="Tak, wszystko się dymi i pali, ale działa." speaker="1" speakertags="humorous">
-		<Conversation line="Znowu coś brałeś przed wypłynięciem?" speaker="0">
-			<Conversation line="Spokojnie, tylko żartuje." speaker="1">
-				<Conversation line="Lepiej sobie nie żartuj." speaker="0" speakertags="rude"/>
-				<Conversation line="Nie żartuj sobie, bo to nie na to pora." speaker="3"/>
-				<Conversation line="Na żarty nie czasu i miejsca." speaker="3" speakertags="professional"/>
-			</Conversation>
-		</Conversation>
-	</Conversation>
-	<Conversation line="Oczywiście, wszystko jest sprawdzone!" speaker="1" speakertags="hardworking"/>
-</Conversation>
-
-<Conversation line="Czasami mi się wydaje, że Europa jest dziwna." speaker="0">
-	<Conversation line="Według mnie bardziej płaska." speaker="1" speakertags="agreeable">
-		<Conversation line="Zależy, jak na to patrzysz." speaker="2">
-			<Conversation line="Spokojnie, ja patrzę na to bardzo dobrze." speaker="1" speakertags="agreeable"/>
-		</Conversation>
-	</Conversation>
-	<Conversation line="No potrafi być dziwna." speaker="1">
-		<Conversation line="Dla mnie trudno to stwierdzić..." speaker="2" speakertags="logical"/>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Ah, czy zawsze musi tu coś przeciekać?" speaker="0">
-	<Conversation line="Jak Ci coś przecieka, to to załataj." speaker="1"/>
-	<Conversation line="No jak to na łodzi podwodnej bywa, coś musi przeciekać." speaker="1"/>
-	<Conversation line="Nie musisz za każdym razem narzekać." speaker="1" speakertags="realistic"/>
-</Conversation>
-	
-<Conversation line="To naprawdę zawrotne." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
-	<Conversation line="Co zawrotne." speaker="1">
-		<Conversation line="Nie nic..." speaker="0"/>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Koalicja musi robić lepszą robotę..." speaker="0" speakertags="political">
-	<Conversation line="O Boże, nie znowu..." speaker="1">
-		<Conversation line="Lecz pomimo tego nie robi ona nic, aby nas chronić!" speaker="0">
-			<Conversation line="Ale to chyba nie jest ich zadanie, aby nas chronić?" speaker="2"/>
-			<Conversation line="Aktulanie jesteśmy bezpieczni." speaker="2" maxintensity="0.1"/>
-			<Conversation line="Spójrz na to z lepszej strony." speaker="2" speakertags="optimistic"/>
-		</Conversation>
-	</Conversation>
-	<Conversation line="Lecz pomimo tego oni nic nie robią, aby nas chronić!" speaker="0">
-		<Conversation line="Ale to chyba nie jest ich zadanie, aby nas chronić?" speaker="1"/>
-		<Conversation line="Spokojnie, na razie jesteśmy bezpieczni." speaker="1" maxintensity="0.1"/>
-		<Conversation line="Damy sobie radę bez nich..." speaker="1" minintensity="0.4"/>
-		<Conversation line="Lepiej spójżmy na to z lepszej strony." speaker="1" speakertags="optimistic"/>
-	</Conversation>
-	<Conversation line="Nie zaczynaj znowu z nimi!" speaker="1" allowedjobs="captain"/>
-	<Conversation line="I tak mało by nam dali." speaker="1" speakertags="nonauthoritarian"/>
-	<Conversation line="No robi lepszą, tylko ty jej jak zwykle nie widzisz." speaker="1" speakertags="rude"/>
-</Conversation>
-
-<Conversation line="Dobrze, że mamy Morfinę." speaker="0" allowedjobs="medicaldoctor">
-	<Conversation line="No i? Co z tego, że mamy?" speaker="1">
-		<Conversation line="Bo to nam nie raz ratuje życie, dlatego lekarz jest wdzięczny." speaker="2"/>
-		<Conversation line="Bo bez tego bylibyśmy teraz martwi." speaker="2"/>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Niedawno ukończyłem kurs marynarza. Ktoś ma jakieś rady, jakie powinienem dodatkowo przestrzegać?" speaker="0" allowedjobs="assistant">
-	<Conversation line="Nie umierać ze swojej głupoty." speaker="1"/>
-	<Conversation line="Nie przeszkadzać w robocie." speaker="1"/>
-	<Conversation line="Mi się wydaje, że zatrudniłem ciebie z listy bez robotnych?" speaker="1" allowedjobs="captain">
-		<Conversation line="..." speaker="0"/>
-		<Conversation line="Teoretycznie każdy kto żywy nadaje się tutaj. Więc w czym problem?" speaker="2"/>
-	</Conversation>
-</Conversation>
-	
-<Conversation line="Czy ktoś wie, jak żyć tutaj wiecznie?" speaker="0">
-	<Conversation line="Słyszałem, że jak wyjdziesz na zewnątrz to możesz zyskać magiczne moce nieśmiertelności..." speaker="1" speakertags="rude">
-		<Conversation line="Serio?" speaker="0">
-			<Conversation line="Nie, to nie ten świat, że będziesz żył wiecznie." speaker="1" speakertags="rude"/>
-		</Conversation>
-	</Conversation>
-</Conversation>
-	
-<Conversation line="Hmm, czasami myślę, że ta łódź żyje własnym życiem." speaker="0">
-	<Conversation line="Chyba masz zwidy..." speaker="0"/>
-	<Conversation line="Możesz mieć halucynacje." speaker="1" allowedjobs="medicaldoctor"/>
-	<Conversation line="Chyba masz halucynacje." speaker="1" speakertags="perceptive"/>
-	<Conversation line="Nie sądzę, to tylko kupa stali." speaker="1" speakertags="optimistic"/>
-	<Conversation line="Jeszcze nic się tu chyba nie zalęgło, aby ożywić tę łódź." speaker="1"/>
-	<Conversation line="Od długiej pracy na statku możesz być już zmęczony." speaker="1" speakertags="logical"/>
-	<Conversation line="Lepiej idź już spać, bo masz zwidy." speaker="1" speakertags="curious">
-		<Conversation line="Nie wiem...w sumie skupię się na robocie." speaker="0"/>
-	</Conversation>
-</Conversation>
-	
-<Conversation line="Hej, czy ktoś wie coś o Astronomii?" speaker="0" speakertags="scholarly">
-	<Conversation line="Nie siedzę w Astronomii, wybacz." speaker="1"/>
-	<Conversation line="To jest coś na temat dlaczego Europa jest płaska?" speaker="1">
-		<Conversation line="Nie i się mylisz." speaker="0"/>
-		<Conversation line="To nauka i wiedza o planecie i kosmosie! A Europa jest okrągła!" speaker="0">
-			<Conversation line="Jasne?" speaker="0"/>
-			<Conversation line="Um, no dobrze...chyba." speaker="1"/>
-			<Conversation line="My wszyscy wiemy, że wszystko jest tak czy siak płaskie." speaker="2">
-				<Conversation line="..." speaker="0"/>
-				<Conversation line="Wasze mądrości zalecałbym zachować na później, kiedy przyjdzie na to czas..." speaker="3" allowedjobs="captain" />
-			</Conversation>
-		</Conversation>
-	</Conversation>
-</Conversation>
-
-
-<Conversation line="Przed następną eksploracją jaskiń weżmie się trochę C4 lub UEX'a." speaker="0">
-	<Conversation line="Um, dlaczego?" speaker="1">
-		<Conversation line="Przyda się...jakbyś nie mógł być już przydatny." speaker="0"/>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Czy ktoś z was wziął trochę mojego jedzenia z szafki?" speaker="0" speakertags="considerate,caring">
-	<Conversation line="Masz na myśli te chrupki, które były w sterowni?" speaker="1">
-		<Conversation line="Tak, te." speaker="0">
-			<Conversation line="A to nie wiem, kto Ci wziął, hehe." speaker="1"/>
-			<Conversation line="Oj to nie wiem, nie wiem. Może spłynęły do balastu." speaker="1">
-			<Conversation line="Wybacz, skończyło mi się jedzenie, więc musiałem." speaker="1" speakertags="considerate,caring">
-				<Conversation line="Nie szkodzi, kupi się nowe. Lecz następnym razem kup też dla siebie." speaker="0"/>
-			</Conversation>
-		</Conversation>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Dobra załogo, czas trochę obczyścić to dno Europy." speaker="0" flags="Initial" allowedjobs="captain">
-	<Conversation line="Się robi, kapitanie!" speaker="1"/>
-	<Conversation line="Tak jest, kapitanie!" speaker="1"/>
-	<Conversation line="Tak jest! Jakie rozkazy?" speaker="1">
-		<Conversation line="Uruchomić wszystkie przyrządy! Pora na zabawę." speaker="0" allowedjobs="captain">
-			<Conversation line="Dobrze, kapitanie!" speaker="1"/>
-		</Conversation>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Kolejny dzień i kolejna przygoda, czas wyruszać moja załogo!" speaker="0" flags="Initial" allowedjobs="captain">
-	<Conversation line="Ja w tym czasie sprawdzę, czy wszystko działa." speaker="1" allowedjobs="engineer,mechanic"/>
-	<Conversation line="Tak jest!" speaker="1"/>
-</Conversation>
-
-<Conversation line="Ostatnio trudno jest zdobyć Antyrad. Szukałem po sklepach i albo go nie ma, albo jest drogi." speaker="0" allowedjobs="medicaldoctor" speakertags="laid-back,joker" maxintensity="0.3">
-	<Conversation line="Antyrad schodzi tak szybko jak Morfina. Przez te promieniowanie od Jowisza trudno jest przetrwać." speaker="1">
-		<Conversation line="Zaraz, Morfiny również nie ma?" speaker="0">
-			<Conversation line="Klauny lubią brać ją do swoich celów..." speaker="1"/>
-		</Conversation>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Pomocy...pomocy..po...mocy? Pomocy!" speaker="0" flags="PsychosisSelf">
-	<Conversation line="...Proszę..." speaker="0" flags="PsychosisSelf"/>
-</Conversation>
-
-<Conversation line="Muszę to posprzątać...i to...i to też...i tę krew!" speaker="0" flags="PsychosisSelf">
-	<Conversation line="...dużo krwi..." speaker="0" flags="PsychosisSelf"/>
-</Conversation>
-
-<Conversation line="Wszystko się wali, wszystko się wali, wszystko się wali..." speaker="0" flags="PsychosisSelf">
-	<Conversation line="To niszczy mnie...." speaker="0" flags="PsychosisSelf"/>
-</Conversation>
-
-
-<Conversation line="Wszyscy zginiemy, wszyscy zginiemy, wszyscy zginiemy..." speaker="0" flags="PsychosisSelf">
-	<Conversation line="wszyscy zginiemy..." speaker="0" flags="PsychosisSelf"/>
-</Conversation>
-
-<Conversation line="O Boże...dlaczego zostałem zesłany w te piekło. Dlaczego, kapitanie!?" speaker="0" speakertags="fearful" minintensity="0.8">
-	<Conversation line="A weż siedź cicho." speaker="1" speakertags="rude"/>
-	<Conversation line="Przestań się drzeć i nam pomóż!" speaker="1" />
-	<Conversation line="Nie martw się, to nie jest piekło...to coś gorszego." speaker="1" allowedjobs="captain"/>
-	<Conversation line="Spokojnie. Jesteśmy z tobą i się liczy!" speaker="1" allowedjobs="captain" speakertags="professional,calm,laid-back"/>
-</Conversation>
-
-<Conversation line="Ja tu nie chcę zginąć! Czemu mnie tu zesłano!" speaker="0" speakertags="fearful" minintensity="0.9">
-	<Conversation line="Dlaczego więc zgłosiłeś się do nas?!" speaker="1" speakertags="rude"/>
-	<Conversation line="Abyś robił to, co ja Ci mówię! Do roboty włuczynogo!" speaker="1" allowedjobs="captain"/>
-</Conversation>
-
-<Conversation line="Więc tu będzie czekał mnie mój koniec..." speaker="0" minintensity="0.9"/><!--1 Variant-->
-
-<Conversation line="To nie może się dziać!!!" speaker="0" speakertags="fearful" minintensity="0.9"/><!--1 Variant-->
-
-<Conversation line="Dlaczego znowu padło na mnie?!" speaker="0" speakertags="fearful" minintensity="0.9"/><!--1 Variant-->
-
-<Conversation line="Ludzie, dalej! Damy radę to zrobić... Ludzie?!" speaker="0" minintensity="1"/><!--1 Variant-->
-
-<Conversation line="Mamo... Mamo wybacz... wybacz..." speaker="0" minintensity="1"/><!--1 Variant-->
-
-<Conversation line="JUŻ DŁUŻEJ TEGO NIE WYTRZYMAM!!!" speaker="0" speakertags="fearful" minintensity="1"/>
-	<Conversation line="Więc wyjdź na zewnątrz!" speaker="1" speakertags="rude"/>
-	<Conversation line="Mamy na pokładzie drobną panikę!" speaker="1" />
-	<Conversation line="Wszyscy wiąść się w garść i robić swoje!" speaker="1" allowedjobs="captain"/>
-</Conversation>
-
-<Conversation line="JA TU NIE CHCĘ ZGINĄĆ!!!" speaker="0" speakertags="fearful" minintensity="1">
-	<Conversation line="Czy ktoś może mu zabrać to radio?!" speaker="1" speakertags="rude"/>
-	<Conversation line="Przestań krzyczeć prosto w mikrofon!" speaker="1" />
-	<Conversation line="My tu nie jesteśmy, aby ginąć. Skup się na robocie!" speaker="1" allowedjobs="captain"/>
-</Conversation>
-
-<Conversation line="NIE MOGĘ TAK ZGINĄĆ!!!" speaker="0" speakertags="fearful" minintensity="1">
-	<Conversation line="Przestań się drzeć i pomóż nam!" speaker="1" />
-	<Conversation line="Przestań się drzeć, proszę!" speaker="1" />
-	<Conversation line="Nikt tu nie zginie, kiedy zaczniesz robić to co trzeba!" speaker="1" allowedjobs="captain"/>
-</Conversation>
-
-<Conversation line="KTOŚ?! KTOKOLWIEK?! POMOCY!!!" speaker="0" speakertags="fearful" minintensity="1">
-	<Conversation line="Weź się zamknij i nam pomóż!" speaker="1" />
-	<Conversation line="Uspokuj się! Wszystko będzie w porządku!" speaker="1" allowedjobs="captain"/>
-</Conversation>
-
-<Conversation line="Um, wiecie co? Ten kadłub nie brzmi aktualnie najlepiej..." speaker="0" flags="SubmarineDeep" speakertags="brokenenglish">
-	<Conversation line="To mój ulubiony dźwięk łamiącej się stali!" speaker="1" speakertags="crazy"/>
-	<Conversation line="Nie martw się, po prostu za chwile zmiażdzy nas ciśnienie." speaker="1"/>
-</Conversation>
-
-<Conversation line="Ej, ludzie! Ten kabłub się rozpada!!!" speaker="0" flags="SubmarineDeep">
-	<Conversation line="Oj tak, jaki miły prysznic!" speaker="1" speakertags="crazy"/>
-	<Conversation line="Łataj dziury, bo jest sprawa życia i śmierci!" speaker="1"/>
-</Conversation>
-
-<Conversation line="Kiedy w końcu ulepszymy te skrzynki elektryczne?" speaker="0" allowedjobs="engineer" maxintensity="0.3">
-	<Conversation line="Kiedy nauczysz się robić lepsze obwody elektryczne." speakertags="laid-back" speaker="1"/>
-</Conversation>
-
-<Conversation line="Jak szalonym muszę być, aby dołączyć do organizacji klaunów?" speaker="0" maxintensity="0.4">
-	<Conversation line="Myślę, że trucizna wywołująca psychozę powinna pomóc." speaker="1">
-		<Conversation line="Też mi się tak wydaję." speaker="0"/>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Jeżeli kiedykolwiek stanę się huskiem, to ciekawe kto mnie pierwszy zabije." speaker="0">
-	<Conversation line="Zapewnę to będę ja!" speaker="1">
-		<Conversation line="A nie, bo ja!" speaker="2">
-			<Conversation line="Ta...dzięki..." speaker="0"/>
-		</Conversation>
-	</Conversation>
-	<Conversation line="Nie będziesz huskiem, nie martw się." speaker="1"/>
-	<Conversation line="Nie dopuszczę to tego, abyś został huskiem, nie martw się." speaker="1" allowedjobs="medicaldoctor"/>
-</Conversation>
-
-<Conversation line="Czasami mi się wydaje, że ktoś z was może być huskiem." speaker="0" minintensity="0.5">
-	<Conversation line="Nie wydaje mi się." speaker="1"/>
-	<Conversation line="Może ty nim jesteś..." speaker="1"/>
-</Conversation>
-
-<Conversation line="Mam nadzieję, że nie ma tu jakiś zdrajców na pokładzie." speaker="0" flags="Initial">
-	<Conversation line="Też mam taką nadzieję..." speaker="1"/>
-	<Conversation line="Nikt tego nie wie..." speaker="1"/>
-</Conversation>
-
-<Conversation line="Jak ja nie lubię pływać w tych wodach. Tu jest ciemno i zimno..." speaker="0" flags="Outside">
-	<Conversation line="Więc następnym razem zostań na statku." speaker="1" flags="Outside"/>
-	<Conversation line="Ale lepiej pływasz jak ja. Rób swoje i tyle." speaker="1" flags="Inside"/>
-</Conversation>
-
-<Conversation line="Co barman zwykle mówi do medyka?" speakertags="joker" speaker="0" flags="Casual">
-	<Conversation line="Um, co?" speaker="1">
-		<Conversation line="Jaki drink mi dziś zaserwujesz?" speaker="0">
-			<Conversation line="Hehe, nie rozumiem." speaker="1">
-				<Conversation line="Ale wy wiecie, że ja nie chodzę do barów?" speaker="2" allowedjobs="medicaldoctor"/>
-			</Conversation>
-		</Conversation>
-	</Conversation>
-</Conversation>
-
-<Conversation line="AAA! Pełzacz chce mnie zjeść!" speaker="0" speakertags="fearful" flags="Outside" maxintensity="0">
-	<Conversation line="Gdzie on jest?" speaker="1">
-		<Conversation line="A nie, to tylko ryba..." speaker="0"/>
-		<Conversation line="Aha..." speaker="1"/>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Czy uważasz, że Europa to dobre miejsce do wychowywania dzieci?" speaker="0">
-	<Conversation line="Nie sądzę..." speaker="1">
-		<Conversation line="Ale ty chyba masz dzieci?" speaker="0">
-			<Conversation line="Miałem...do czasu aż straciłem ich podczas jednej z wypraw...lepiej o tym nie rozmawiajmy." speaker="1"/>
-		</Conversation>
-	</Conversation>
-</Conversation>
-
-<Conversation line="Czy ktokolwiek z was ma moją spawarkę?" speaker="0">
-	<Conversation line="A była podpisana?" speaker="1" speakertags="joker,laid-back">
-		<Conversation line="Nie..." speaker="0">
-			<Conversation line="Więc jej już nie masz." speaker="1"/>
-		</Conversation>
-	</Conversation>
-</Conversation>
-
+  <!-- Translated by GamePlayer from /Community Conversation Pack/English/Conversation_English.xml (very modified) -->
+  <Conversation line="Sprawdziliśmy wszystko przed wypłynięciem?" flags="Initial" speaker="0">
+    <Conversation line="Mi się wydaje, że tak." speaker="1" />
+    <Conversation line="Tak." speaker="1" speakertags="simple" />
+    <Conversation line="Tak, wszystko się dymi i pali, ale działa." speaker="1" speakertags="humorous">
+      <Conversation line="Znowu coś brałeś przed wypłynięciem?" speaker="0">
+        <Conversation line="Spokojnie, tylko żartuje." speaker="1">
+          <Conversation line="Lepiej sobie nie żartuj." speaker="0" speakertags="rude" />
+          <Conversation line="Nie żartuj sobie, bo to nie na to pora." speaker="3" />
+          <Conversation line="Na żarty nie czasu i miejsca." speaker="3" speakertags="professional" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Oczywiście, wszystko jest sprawdzone!" speaker="1" speakertags="hardworking" />
+  </Conversation>
+  <Conversation line="Czasami mi się wydaje, że Europa jest dziwna." speaker="0">
+    <Conversation line="Według mnie bardziej płaska." speaker="1" speakertags="agreeable">
+      <Conversation line="Zależy, jak na to patrzysz." speaker="2">
+        <Conversation line="Spokojnie, ja patrzę na to bardzo dobrze." speaker="1" speakertags="agreeable" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="No potrafi być dziwna." speaker="1">
+      <Conversation line="Dla mnie trudno to stwierdzić..." speaker="2" speakertags="logical" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Ah, czy zawsze musi tu coś przeciekać?" speaker="0">
+    <Conversation line="Jak Ci coś przecieka, to to załataj." speaker="1" />
+    <Conversation line="No jak to na łodzi podwodnej bywa, coś musi przeciekać." speaker="1" />
+    <Conversation line="Nie musisz za każdym razem narzekać." speaker="1" speakertags="realistic" />
+  </Conversation>
+  <Conversation line="To naprawdę zawrotne." speaker="0" speakertags="brokenenglish" flags="Bloodloss">
+    <Conversation line="Co zawrotne." speaker="1">
+      <Conversation line="Nie nic..." speaker="0" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Koalicja musi robić lepszą robotę..." speaker="0" speakertags="political">
+    <Conversation line="O Boże, nie znowu..." speaker="1">
+      <Conversation line="Lecz pomimo tego nie robi ona nic, aby nas chronić!" speaker="0">
+        <Conversation line="Ale to chyba nie jest ich zadanie, aby nas chronić?" speaker="2" />
+        <Conversation line="Aktulanie jesteśmy bezpieczni." speaker="2" maxintensity="0.1" />
+        <Conversation line="Spójrz na to z lepszej strony." speaker="2" speakertags="optimistic" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="Lecz pomimo tego oni nic nie robią, aby nas chronić!" speaker="0">
+      <Conversation line="Ale to chyba nie jest ich zadanie, aby nas chronić?" speaker="1" />
+      <Conversation line="Spokojnie, na razie jesteśmy bezpieczni." speaker="1" maxintensity="0.1" />
+      <Conversation line="Damy sobie radę bez nich..." speaker="1" minintensity="0.4" />
+      <Conversation line="Lepiej spójżmy na to z lepszej strony." speaker="1" speakertags="optimistic" />
+    </Conversation>
+    <Conversation line="Nie zaczynaj znowu z nimi!" speaker="1" allowedjobs="captain" />
+    <Conversation line="I tak mało by nam dali." speaker="1" speakertags="nonauthoritarian" />
+    <Conversation line="No robi lepszą, tylko ty jej jak zwykle nie widzisz." speaker="1" speakertags="rude" />
+  </Conversation>
+  <Conversation line="Dobrze, że mamy Morfinę." speaker="0" allowedjobs="medicaldoctor">
+    <Conversation line="No i? Co z tego, że mamy?" speaker="1">
+      <Conversation line="Bo to nam nie raz ratuje życie, dlatego lekarz jest wdzięczny." speaker="2" />
+      <Conversation line="Bo bez tego bylibyśmy teraz martwi." speaker="2" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Niedawno ukończyłem kurs marynarza. Ktoś ma jakieś rady, jakie powinienem dodatkowo przestrzegać?" speaker="0" allowedjobs="assistant">
+    <Conversation line="Nie umierać ze swojej głupoty." speaker="1" />
+    <Conversation line="Nie przeszkadzać w robocie." speaker="1" />
+    <Conversation line="Mi się wydaje, że zatrudniłem ciebie z listy bez robotnych?" speaker="1" allowedjobs="captain">
+      <Conversation line="..." speaker="0" />
+      <Conversation line="Teoretycznie każdy kto żywy nadaje się tutaj. Więc w czym problem?" speaker="2" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Czy ktoś wie, jak żyć tutaj wiecznie?" speaker="0">
+    <Conversation line="Słyszałem, że jak wyjdziesz na zewnątrz to możesz zyskać magiczne moce nieśmiertelności..." speaker="1" speakertags="rude">
+      <Conversation line="Serio?" speaker="0">
+        <Conversation line="Nie, to nie ten świat, że będziesz żył wiecznie." speaker="1" speakertags="rude" />
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Hmm, czasami myślę, że ta łódź żyje własnym życiem." speaker="0">
+    <Conversation line="Chyba masz zwidy..." speaker="0" />
+    <Conversation line="Możesz mieć halucynacje." speaker="1" allowedjobs="medicaldoctor" />
+    <Conversation line="Chyba masz halucynacje." speaker="1" speakertags="perceptive" />
+    <Conversation line="Nie sądzę, to tylko kupa stali." speaker="1" speakertags="optimistic" />
+    <Conversation line="Jeszcze nic się tu chyba nie zalęgło, aby ożywić tę łódź." speaker="1" />
+    <Conversation line="Od długiej pracy na statku możesz być już zmęczony." speaker="1" speakertags="logical" />
+    <Conversation line="Lepiej idź już spać, bo masz zwidy." speaker="1" speakertags="curious">
+      <Conversation line="Nie wiem...w sumie skupię się na robocie." speaker="0" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Hej, czy ktoś wie coś o Astronomii?" speaker="0" speakertags="scholarly">
+    <Conversation line="Nie siedzę w Astronomii, wybacz." speaker="1" />
+    <Conversation line="To jest coś na temat dlaczego Europa jest płaska?" speaker="1">
+      <Conversation line="Nie i się mylisz." speaker="0" />
+      <Conversation line="To nauka i wiedza o planecie i kosmosie! A Europa jest okrągła!" speaker="0">
+        <Conversation line="Jasne?" speaker="0" />
+        <Conversation line="Um, no dobrze...chyba." speaker="1" />
+        <Conversation line="My wszyscy wiemy, że wszystko jest tak czy siak płaskie." speaker="2">
+          <Conversation line="..." speaker="0" />
+          <Conversation line="Wasze mądrości zalecałbym zachować na później, kiedy przyjdzie na to czas..." speaker="3" allowedjobs="captain" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Przed następną eksploracją jaskiń weżmie się trochę C4 lub UEX'a." speaker="0">
+    <Conversation line="Um, dlaczego?" speaker="1">
+      <Conversation line="Przyda się...jakbyś nie mógł być już przydatny." speaker="0" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Czy ktoś z was wziął trochę mojego jedzenia z szafki?" speaker="0" speakertags="considerate,caring">
+    <Conversation line="Masz na myśli te chrupki, które były w sterowni?" speaker="1">
+      <Conversation line="Tak, te." speaker="0">
+        <Conversation line="A to nie wiem, kto Ci wziął, hehe." speaker="1" />
+        <Conversation line="Oj to nie wiem, nie wiem. Może spłynęły do balastu." speaker="1">
+          <Conversation line="Wybacz, skończyło mi się jedzenie, więc musiałem." speaker="1" speakertags="considerate,caring">
+            <Conversation line="Nie szkodzi, kupi się nowe. Lecz następnym razem kup też dla siebie." speaker="0" />
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Dobra załogo, czas trochę obczyścić to dno Europy." speaker="0" flags="Initial" allowedjobs="captain">
+      <Conversation line="Się robi, kapitanie!" speaker="1" />
+      <Conversation line="Tak jest, kapitanie!" speaker="1" />
+      <Conversation line="Tak jest! Jakie rozkazy?" speaker="1">
+        <Conversation line="Uruchomić wszystkie przyrządy! Pora na zabawę." speaker="0" allowedjobs="captain">
+          <Conversation line="Dobrze, kapitanie!" speaker="1" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Kolejny dzień i kolejna przygoda, czas wyruszać moja załogo!" speaker="0" flags="Initial" allowedjobs="captain">
+      <Conversation line="Ja w tym czasie sprawdzę, czy wszystko działa." speaker="1" allowedjobs="engineer,mechanic" />
+      <Conversation line="Tak jest!" speaker="1" />
+    </Conversation>
+    <Conversation line="Ostatnio trudno jest zdobyć Antyrad. Szukałem po sklepach i albo go nie ma, albo jest drogi." speaker="0" allowedjobs="medicaldoctor" speakertags="laid-back,joker" maxintensity="0.3">
+      <Conversation line="Antyrad schodzi tak szybko jak Morfina. Przez te promieniowanie od Jowisza trudno jest przetrwać." speaker="1">
+        <Conversation line="Zaraz, Morfiny również nie ma?" speaker="0">
+          <Conversation line="Klauny lubią brać ją do swoich celów..." speaker="1" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Pomocy...pomocy..po...mocy? Pomocy!" speaker="0" flags="PsychosisSelf">
+      <Conversation line="...Proszę..." speaker="0" flags="PsychosisSelf" />
+    </Conversation>
+    <Conversation line="Muszę to posprzątać...i to...i to też...i tę krew!" speaker="0" flags="PsychosisSelf">
+      <Conversation line="...dużo krwi..." speaker="0" flags="PsychosisSelf" />
+    </Conversation>
+    <Conversation line="Wszystko się wali, wszystko się wali, wszystko się wali..." speaker="0" flags="PsychosisSelf">
+      <Conversation line="To niszczy mnie...." speaker="0" flags="PsychosisSelf" />
+    </Conversation>
+    <Conversation line="Wszyscy zginiemy, wszyscy zginiemy, wszyscy zginiemy..." speaker="0" flags="PsychosisSelf">
+      <Conversation line="wszyscy zginiemy..." speaker="0" flags="PsychosisSelf" />
+    </Conversation>
+    <Conversation line="O Boże...dlaczego zostałem zesłany w te piekło. Dlaczego, kapitanie!?" speaker="0" speakertags="fearful" minintensity="0.8">
+      <Conversation line="A weż siedź cicho." speaker="1" speakertags="rude" />
+      <Conversation line="Przestań się drzeć i nam pomóż!" speaker="1" />
+      <Conversation line="Nie martw się, to nie jest piekło...to coś gorszego." speaker="1" allowedjobs="captain" />
+      <Conversation line="Spokojnie. Jesteśmy z tobą i się liczy!" speaker="1" allowedjobs="captain" speakertags="professional,calm,laid-back" />
+    </Conversation>
+    <Conversation line="Ja tu nie chcę zginąć! Czemu mnie tu zesłano!" speaker="0" speakertags="fearful" minintensity="0.9">
+      <Conversation line="Dlaczego więc zgłosiłeś się do nas?!" speaker="1" speakertags="rude" />
+      <Conversation line="Abyś robił to, co ja Ci mówię! Do roboty włuczynogo!" speaker="1" allowedjobs="captain" />
+    </Conversation>
+    <Conversation line="Więc tu będzie czekał mnie mój koniec..." speaker="0" minintensity="0.9" />
+    <!--1 Variant-->
+    <Conversation line="To nie może się dziać!!!" speaker="0" speakertags="fearful" minintensity="0.9" />
+    <!--1 Variant-->
+    <Conversation line="Dlaczego znowu padło na mnie?!" speaker="0" speakertags="fearful" minintensity="0.9" />
+    <!--1 Variant-->
+    <Conversation line="Ludzie, dalej! Damy radę to zrobić... Ludzie?!" speaker="0" minintensity="1" />
+    <!--1 Variant-->
+    <Conversation line="Mamo... Mamo wybacz... wybacz..." speaker="0" minintensity="1" />
+    <!--1 Variant-->
+    <Conversation line="JUŻ DŁUŻEJ TEGO NIE WYTRZYMAM!!!" speaker="0" speakertags="fearful" minintensity="1" />
+    <Conversation line="Więc wyjdź na zewnątrz!" speaker="1" speakertags="rude" />
+    <Conversation line="Mamy na pokładzie drobną panikę!" speaker="1" />
+    <Conversation line="Wszyscy wiąść się w garść i robić swoje!" speaker="1" allowedjobs="captain" />
+  </Conversation>
+  <Conversation line="JA TU NIE CHCĘ ZGINĄĆ!!!" speaker="0" speakertags="fearful" minintensity="1">
+    <Conversation line="Czy ktoś może mu zabrać to radio?!" speaker="1" speakertags="rude" />
+    <Conversation line="Przestań krzyczeć prosto w mikrofon!" speaker="1" />
+    <Conversation line="My tu nie jesteśmy, aby ginąć. Skup się na robocie!" speaker="1" allowedjobs="captain" />
+  </Conversation>
+  <Conversation line="NIE MOGĘ TAK ZGINĄĆ!!!" speaker="0" speakertags="fearful" minintensity="1">
+    <Conversation line="Przestań się drzeć i pomóż nam!" speaker="1" />
+    <Conversation line="Przestań się drzeć, proszę!" speaker="1" />
+    <Conversation line="Nikt tu nie zginie, kiedy zaczniesz robić to co trzeba!" speaker="1" allowedjobs="captain" />
+  </Conversation>
+  <Conversation line="KTOŚ?! KTOKOLWIEK?! POMOCY!!!" speaker="0" speakertags="fearful" minintensity="1">
+    <Conversation line="Weź się zamknij i nam pomóż!" speaker="1" />
+    <Conversation line="Uspokuj się! Wszystko będzie w porządku!" speaker="1" allowedjobs="captain" />
+  </Conversation>
+  <Conversation line="Um, wiecie co? Ten kadłub nie brzmi aktualnie najlepiej..." speaker="0" flags="SubmarineDeep" speakertags="brokenenglish">
+    <Conversation line="To mój ulubiony dźwięk łamiącej się stali!" speaker="1" speakertags="crazy" />
+    <Conversation line="Nie martw się, po prostu za chwile zmiażdzy nas ciśnienie." speaker="1" />
+  </Conversation>
+  <Conversation line="Ej, ludzie! Ten kabłub się rozpada!!!" speaker="0" flags="SubmarineDeep">
+    <Conversation line="Oj tak, jaki miły prysznic!" speaker="1" speakertags="crazy" />
+    <Conversation line="Łataj dziury, bo jest sprawa życia i śmierci!" speaker="1" />
+  </Conversation>
+  <Conversation line="Kiedy w końcu ulepszymy te skrzynki elektryczne?" speaker="0" allowedjobs="engineer" maxintensity="0.3">
+    <Conversation line="Kiedy nauczysz się robić lepsze obwody elektryczne." speakertags="laid-back" speaker="1" />
+  </Conversation>
+  <Conversation line="Jak szalonym muszę być, aby dołączyć do organizacji klaunów?" speaker="0" maxintensity="0.4">
+    <Conversation line="Myślę, że trucizna wywołująca psychozę powinna pomóc." speaker="1">
+      <Conversation line="Też mi się tak wydaję." speaker="0" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Jeżeli kiedykolwiek stanę się huskiem, to ciekawe kto mnie pierwszy zabije." speaker="0">
+    <Conversation line="Zapewnę to będę ja!" speaker="1">
+      <Conversation line="A nie, bo ja!" speaker="2">
+        <Conversation line="Ta...dzięki..." speaker="0" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="Nie będziesz huskiem, nie martw się." speaker="1" />
+    <Conversation line="Nie dopuszczę to tego, abyś został huskiem, nie martw się." speaker="1" allowedjobs="medicaldoctor" />
+  </Conversation>
+  <Conversation line="Czasami mi się wydaje, że ktoś z was może być huskiem." speaker="0" minintensity="0.5">
+    <Conversation line="Nie wydaje mi się." speaker="1" />
+    <Conversation line="Może ty nim jesteś..." speaker="1" />
+  </Conversation>
+  <Conversation line="Mam nadzieję, że nie ma tu jakiś zdrajców na pokładzie." speaker="0" flags="Initial">
+    <Conversation line="Też mam taką nadzieję..." speaker="1" />
+    <Conversation line="Nikt tego nie wie..." speaker="1" />
+  </Conversation>
+  <Conversation line="Jak ja nie lubię pływać w tych wodach. Tu jest ciemno i zimno..." speaker="0" flags="Outside">
+    <Conversation line="Więc następnym razem zostań na statku." speaker="1" flags="Outside" />
+    <Conversation line="Ale lepiej pływasz jak ja. Rób swoje i tyle." speaker="1" flags="Inside" />
+  </Conversation>
+  <Conversation line="Co barman zwykle mówi do medyka?" speakertags="joker" speaker="0" flags="Casual">
+    <Conversation line="Um, co?" speaker="1">
+      <Conversation line="Jaki drink mi dziś zaserwujesz?" speaker="0">
+        <Conversation line="Hehe, nie rozumiem." speaker="1">
+          <Conversation line="Ale wy wiecie, że ja nie chodzę do barów?" speaker="2" allowedjobs="medicaldoctor" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="AAA! Pełzacz chce mnie zjeść!" speaker="0" speakertags="fearful" flags="Outside" maxintensity="0">
+    <Conversation line="Gdzie on jest?" speaker="1">
+      <Conversation line="A nie, to tylko ryba..." speaker="0" />
+      <Conversation line="Aha..." speaker="1" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Czy uważasz, że Europa to dobre miejsce do wychowywania dzieci?" speaker="0">
+    <Conversation line="Nie sądzę..." speaker="1">
+      <Conversation line="Ale ty chyba masz dzieci?" speaker="0">
+        <Conversation line="Miałem...do czasu aż straciłem ich podczas jednej z wypraw...lepiej o tym nie rozmawiajmy." speaker="1" />
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Czy ktokolwiek z was ma moją spawarkę?" speaker="0">
+    <Conversation line="A była podpisana?" speaker="1" speakertags="joker,laid-back">
+      <Conversation line="Nie..." speaker="0">
+        <Conversation line="Więc jej już nie masz." speaker="1" />
+      </Conversation>
+    </Conversation>
+  </Conversation>
 </Conversations>

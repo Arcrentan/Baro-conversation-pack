@@ -1,394 +1,350 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Polish" nowhitespace="False" translatedname="Polonized">
-
-<!-- Personality traits -->
-<!-- Positive -->
-<personalitytrait.accessible>Dostępny</personalitytrait.accessible>
-<personalitytrait.active>Aktywny</personalitytrait.active>
-<personalitytrait.adaptable>Dający się przystosować</personalitytrait.adaptable>
-<personalitytrait.admirable>Zachwycający</personalitytrait.admirable>
-<personalitytrait.adventurous>Ryzykowny</personalitytrait.adventurous>
-<personalitytrait.agreeable>Przyjemny</personalitytrait.agreeable>
-<personalitytrait.alert>Alarmowy</personalitytrait.alert>
-<personalitytrait.allocentric>Allocentryczny</personalitytrait.allocentric>
-<personalitytrait.amiable>Sympatyczny</personalitytrait.amiable>
-<personalitytrait.anticipative>Orientacyjny</personalitytrait.anticipative>
-<personalitytrait.appreciative>Pochwalny</personalitytrait.appreciative>
-<personalitytrait.articulate>Artykułowany</personalitytrait.articulate>
-<personalitytrait.aspiring>Ambitny</personalitytrait.aspiring>
-<personalitytrait.athletic>Atletyczny</personalitytrait.athletic>
-<personalitytrait.attractive>Atrakcyjny</personalitytrait.attractive>
-
-<personalitytrait.balanced>Zrównoważony</personalitytrait.balanced>
-<personalitytrait.benevolent>Życzliwy</personalitytrait.benevolent>
-<personalitytrait.brilliant>Znakomity</personalitytrait.brilliant>
-
-<personalitytrait.calm>Spokojny</personalitytrait.calm>
-<personalitytrait.capable>Zdolny</personalitytrait.capable>
-<personalitytrait.captivating>Urzekający</personalitytrait.captivating>
-<personalitytrait.caring>Opiekuńczy</personalitytrait.caring>
-<personalitytrait.challenging>Trudne</personalitytrait.challenging>
-<personalitytrait.charismatic>Charyzmatyczny</personalitytrait.charismatic>
-<personalitytrait.charming>Uroczy</personalitytrait.charming>
-<personalitytrait.cheerful>Wesoły</personalitytrait.cheerful>
-<personalitytrait.clean>Czysty</personalitytrait.clean>
-<personalitytrait.clear-headed>Trzeźwo myślący</personalitytrait.clear-headed>
-<personalitytrait.clever>Sprytny</personalitytrait.clever>
-<personalitytrait.colorful>Kolorowy</personalitytrait.colorful>
-<personalitytrait.companionly>Towarzysko</personalitytrait.companionly>
-<personalitytrait.compassionate>Współczujący</personalitytrait.compassionate>
-<personalitytrait.conciliatory>Pojednawczy</personalitytrait.conciliatory>
-<personalitytrait.confident>Pewny</personalitytrait.confident>
-<personalitytrait.conscientious>Sumienny</personalitytrait.conscientious>
-<personalitytrait.considerate>Uważny</personalitytrait.considerate>
-<personalitytrait.constant>Stały</personalitytrait.constant>
-<personalitytrait.contemplative>Kontemplacyjny</personalitytrait.contemplative>
-<personalitytrait.cooperative>Spółdzielny</personalitytrait.cooperative>
-<personalitytrait.courageous>Odważny</personalitytrait.courageous>
-<personalitytrait.courteous>Uprzejmy</personalitytrait.courteous>
-<personalitytrait.creative>Twórczy</personalitytrait.creative>
-<personalitytrait.cultured>Wykształcony</personalitytrait.cultured>
-<personalitytrait.curious>Ciekawy</personalitytrait.curious>
-
-<personalitytrait.daring>Śmiały</personalitytrait.daring>
-<personalitytrait.debonair>Jowialny</personalitytrait.debonair>
-<personalitytrait.decent>Przyzwoity</personalitytrait.decent>
-<personalitytrait.decisive>Decydujący</personalitytrait.decisive>
-<personalitytrait.dedicated>Dedykowany</personalitytrait.dedicated>
-<personalitytrait.deep>Głęboki</personalitytrait.deep>
-<personalitytrait.dignified>Godny</personalitytrait.dignified>
-<personalitytrait.directed>Skierowany</personalitytrait.directed>
-<personalitytrait.disciplined>Zdyscyplinowany</personalitytrait.disciplined>
-<personalitytrait.discreet>Dyskretny</personalitytrait.discreet>
-<personalitytrait.dramatic>Dramatyczny</personalitytrait.dramatic>
-<personalitytrait.dutiful>Dbający</personalitytrait.dutiful>
-<personalitytrait.dynamic>Dynamiczny</personalitytrait.dynamic>
-
-<personalitytrait.earnest>Zadatny</personalitytrait.earnest>
-<personalitytrait.ebullient>Porywczy</personalitytrait.ebullient>
-<personalitytrait.educated>Wykształcony</personalitytrait.educated>
-<personalitytrait.efficient>Wydajny</personalitytrait.efficient>
-<personalitytrait.elegant>Elegancki</personalitytrait.elegant>
-<personalitytrait.eloquent>Wymowny</personalitytrait.eloquent>
-<personalitytrait.empathetic>Empatyczny</personalitytrait.empathetic>
-<personalitytrait.energetic>Energetyczny</personalitytrait.energetic>
-<personalitytrait.enthusiastic>Entuzjastyczny</personalitytrait.enthusiastic>
-<personalitytrait.esthetic>Estetyczny</personalitytrait.esthetic>
-<personalitytrait.exciting>Ekscytujący</personalitytrait.exciting>
-<personalitytrait.extraordinary>Niezwykły</personalitytrait.extraordinary>
-
-<personalitytrait.fair>Uczciwy</personalitytrait.fair>
-<personalitytrait.faithful>Wierny</personalitytrait.faithful>
-<personalitytrait.farsighted>Dalekowzroczny</personalitytrait.farsighted>
-<personalitytrait.felicific>Szczęśliwy</personalitytrait.felicific>
-<personalitytrait.firm>Firmowy</personalitytrait.firm>
-<personalitytrait.flexible>Elastyczny</personalitytrait.flexible>
-<personalitytrait.focused>Skoncentrowany</personalitytrait.focused>
-<personalitytrait.forecful>Forsowny</personalitytrait.forecful>
-<personalitytrait.forgiving>Wyrozumiały</personalitytrait.forgiving>
-<personalitytrait.forthright>Szczery</personalitytrait.forthright>
-<personalitytrait.friendly>Przyjazny</personalitytrait.friendly>
-<personalitytrait.fun-loving>Kochający zabawę</personalitytrait.fun-loving>
-
-<personalitytrait.gallant>Dzielny</personalitytrait.gallant>
-<personalitytrait.generous>Hojny</personalitytrait.generous>
-<personalitytrait.gentle>Delikatny</personalitytrait.gentle>
-<personalitytrait.genuine>Prawdziwy</personalitytrait.genuine>
-<personalitytrait.good-natured>Dobroduszny</personalitytrait.good-natured>
-<personalitytrait.gracious>Łaskawy</personalitytrait.gracious>
-
-<personalitytrait.hardworking>Pracowity</personalitytrait.hardworking>
-<personalitytrait.healthy>Zdrowy</personalitytrait.healthy>
-<personalitytrait.hearty>Serdeczny</personalitytrait.hearty>
-<personalitytrait.helpful>Pomocny</personalitytrait.helpful>
-<personalitytrait.herioc>Heroiczny</personalitytrait.herioc>
-<personalitytrait.high-minded>Wspaniały</personalitytrait.high-minded>
-<personalitytrait.honest>Szczery</personalitytrait.honest>
-<personalitytrait.honorable>Honorowy</personalitytrait.honorable>
-<personalitytrait.humble>Pokorny</personalitytrait.humble>
-<personalitytrait.humorous>Humorystyczny</personalitytrait.humorous>
-
-<personalitytrait.imaginative>Obdarzony wyobraźnią</personalitytrait.imaginative>
-<personalitytrait.impressive>Imponujący</personalitytrait.impressive>
-<personalitytrait.incisive>Zjadliwy</personalitytrait.incisive>
-<personalitytrait.incorruptible>Nieprzekupny</personalitytrait.incorruptible>
-<personalitytrait.independent>Niezależny</personalitytrait.independent>
-<personalitytrait.individualistic>Indywidualistyczny</personalitytrait.individualistic>
-<personalitytrait.innovative>Innowacyjny</personalitytrait.innovative>
-<personalitytrait.inoffensive>Nieszkodliwy</personalitytrait.inoffensive>
-<personalitytrait.insightful>Wnikliwy</personalitytrait.insightful>
-<personalitytrait.insouciant>Nieświadomy</personalitytrait.insouciant>
-<personalitytrait.intelligent>Inteligentny</personalitytrait.intelligent>
-<personalitytrait.intuitive>Intuicyjny</personalitytrait.intuitive>
-<personalitytrait.invulnerable>Niewrażliwy</personalitytrait.invulnerable>
-
-<personalitytrait.kind>Uprzejmy</personalitytrait.kind>
-<personalitytrait.knowledge>Wiedzący</personalitytrait.knowledge>
-
-<personalitytrait.leaderly>Rządzący</personalitytrait.leaderly>
-<personalitytrait.leisurely>Spokojny</personalitytrait.leisurely>
-<personalitytrait.liberal>Liberalny</personalitytrait.liberal>
-<personalitytrait.logical>Logiczny</personalitytrait.logical>
-<personalitytrait.lovable>Sympatyczny</personalitytrait.lovable>
-<personalitytrait.loyal>Wierny</personalitytrait.loyal>
-<personalitytrait.lyrical>Liryczny</personalitytrait.lyrical>
-
-<personalitytrait.magnanimous>Wspaniałomyślny</personalitytrait.magnanimous>
-<personalitytrait.many-sided>Wielostronny</personalitytrait.many-sided>
-<personalitytrait.masculine>Męski</personalitytrait.masculine>
-<personalitytrait.mature>Dojrzały</personalitytrait.mature>
-<personalitytrait.methodical>Metodyczny</personalitytrait.methodical>
-<personalitytrait.maticulous>Skrupulatny</personalitytrait.maticulous>
-<personalitytrait.moderate>Umiarkowany</personalitytrait.moderate>
-<personalitytrait.modest>Skromny</personalitytrait.modest>
-<personalitytrait.multi-leveled>Wielopoziomowy</personalitytrait.multi-leveled>
-
-<personalitytrait.neat>Schludny</personalitytrait.neat>
-<personalitytrait.nonauthoritarian>Nieautorytaryzm</personalitytrait.nonauthoritarian>
-
-<personalitytrait.objective>Obiektywny</personalitytrait.objective>
-<personalitytrait.observant>Uważny</personalitytrait.observant>
-<personalitytrait.open>Otwarty</personalitytrait.open>
-<personalitytrait.optimistic>Optymistyczny</personalitytrait.optimistic>
-<personalitytrait.orderly>Uporządkowany</personalitytrait.orderly>
-<personalitytrait.organized>Zorganizowany</personalitytrait.organized>
-<personalitytrait.original>Oryginalny</personalitytrait.original>
-
-<personalitytrait.painstaking>Pracowity</personalitytrait.painstaking>
-<personalitytrait.passionate>Namiętny</personalitytrait.passionate>
-<personalitytrait.patient>Cierpliwy</personalitytrait.patient>
-<personalitytrait.patriotic>Patriotyczny</personalitytrait.patriotic>
-<personalitytrait.peaceful>Spokojny</personalitytrait.peaceful>
-<personalitytrait.perceptive>Spostrzegawczy</personalitytrait.perceptive>
-<personalitytrait.perfectionist>Perfekcjonista</personalitytrait.perfectionist>
-<personalitytrait.personable>Przystojny</personalitytrait.personable>
-<personalitytrait.persuasive>Przekonujący</personalitytrait.persuasive>
-<personalitytrait.planful>Planowy</personalitytrait.planful>
-<personalitytrait.playful>Figlarny</personalitytrait.playful>
-<personalitytrait.polished>Błyszczący</personalitytrait.polished>
-<personalitytrait.popular>Popularny</personalitytrait.popular>
-<personalitytrait.practical>Praktyczny</personalitytrait.practical>
-<personalitytrait.precise>Precyzyjny</personalitytrait.precise>
-<personalitytrait.principled>Zasadny</personalitytrait.principled>
-<personalitytrait.profound>Głęboki</personalitytrait.profound>
-<personalitytrait.protean>Zmienny</personalitytrait.protean>
-<personalitytrait.protective>Ochronny</personalitytrait.protective>
-<personalitytrait.providential>Opatrznościowy</personalitytrait.providential>
-<personalitytrait.prudent>Ostrożny</personalitytrait.prudent>
-<personalitytrait.punctual>Punktualny</personalitytrait.punctual>
-<personalitytrait.pruposeful>Celowny</personalitytrait.pruposeful>
-
-<personalitytrait.rational>Racjonalny</personalitytrait.rational>
-<personalitytrait.realistic>Realistyczny</personalitytrait.realistic>
-<personalitytrait.reflective>Odblaskowy</personalitytrait.reflective>
-<personalitytrait.relaxed>Zrelaksowany</personalitytrait.relaxed>
-<personalitytrait.reliable>Niezawodny</personalitytrait.reliable>
-<personalitytrait.resourceful>Pomysłowy</personalitytrait.resourceful>
-<personalitytrait.respectful>Pełen szacunku</personalitytrait.respectful>
-<personalitytrait.responsible>Odpowiedzialny</personalitytrait.responsible>
-<personalitytrait.responsive>Czuły</personalitytrait.responsive>
-<personalitytrait.reverential>Pełen szacunku</personalitytrait.reverential>
-<personalitytrait.romantic>Romantyczny</personalitytrait.romantic>
-<personalitytrait.rustic>Rustykalny</personalitytrait.rustic>
-
-<personalitytrait.sage>Umysłowy</personalitytrait.sage>
-<personalitytrait.sane>Rozsądny</personalitytrait.sane>
-<personalitytrait.scholarly>Uczony</personalitytrait.scholarly>
-<personalitytrait.scrupulous>Skrupulatny</personalitytrait.scrupulous>
-<personalitytrait.secure>Ochronny</personalitytrait.secure>
-<personalitytrait.selfless>Bezinteresowny</personalitytrait.selfless>
-<personalitytrait.self-critical>Krytyczny</personalitytrait.self-critical>
-<personalitytrait.self-defacing>Samookaleczalny</personalitytrait.self-defacing>
-<personalitytrait.self-denying>Zaprzeczający sobie</personalitytrait.self-denying>
-<personalitytrait.self-reliant>Samowystarczalny</personalitytrait.self-reliant>
-<personalitytrait.self-sufficent>Samowystarczalny</personalitytrait.self-sufficent>
-<personalitytrait.sensitive>Wrażliwy</personalitytrait.sensitive>
-<personalitytrait.sentimental>Sentymentalny</personalitytrait.sentimental>
-<personalitytrait.seraphic>Seraficzny</personalitytrait.seraphic>
-<personalitytrait.serious>Poważny</personalitytrait.serious>
-<personalitytrait.sexy>Seksowny</personalitytrait.sexy>
-<personalitytrait.sharing>Dzielący się</personalitytrait.sharing>
-<personalitytrait.shrewd>Sprytny</personalitytrait.shrewd>
-<personalitytrait.simple>Prosty</personalitytrait.simple>
-<personalitytrait.skillful>Zręczny</personalitytrait.skillful>
-<personalitytrait.sober>Trzeźwy</personalitytrait.sober>
-<personalitytrait.sociable>Towarzyski</personalitytrait.sociable>
-<personalitytrait.solid>Solidny</personalitytrait.solid>
-<personalitytrait.sophisticated>Wyrafinowany</personalitytrait.sophisticated>
-<personalitytrait.spontaneous>Spontaniczny</personalitytrait.spontaneous>
-<personalitytrait.sporting>Sportowiec</personalitytrait.sporting>
-<personalitytrait.stable>Stabilny</personalitytrait.stable>
-<personalitytrait.steadfast>Niezłomny</personalitytrait.steadfast>
-<personalitytrait.steady>Stały</personalitytrait.steady>
-<personalitytrait.stoic>Stoicki</personalitytrait.stoic>
-<personalitytrait.strong>Silny</personalitytrait.strong>
-<personalitytrait.studious>Intelektualny</personalitytrait.studious>
-<personalitytrait.suave>Uprzejmy</personalitytrait.suave>
-<personalitytrait.subtle>Subtelny</personalitytrait.subtle>
-<personalitytrait.sweet>Słodki</personalitytrait.sweet>
-<personalitytrait.sympathetic>Sympatyczny</personalitytrait.sympathetic>
-<personalitytrait.systematic>Systematyczny</personalitytrait.systematic>
-
-<personalitytrait.tasteful>Gustowny</personalitytrait.tasteful>
-<personalitytrait.teacherly>Nauczycielski</personalitytrait.teacherly>
-<personalitytrait.thorough>Dokładny</personalitytrait.thorough>
-<personalitytrait.tidy>Uporządkowane</personalitytrait.tidy>
-<personalitytrait.tolerant>Tolerancyjny</personalitytrait.tolerant>
-<personalitytrait.tractable>Uległy</personalitytrait.tractable>
-<personalitytrait.trusting>Ufający</personalitytrait.trusting>
-
-<personalitytrait.uncomplaining>Nie narzekający</personalitytrait.uncomplaining>
-<personalitytrait.understanding>Rozumiejący</personalitytrait.understanding>
-<personalitytrait.undogmatic>Niedogmatyczny</personalitytrait.undogmatic>
-<personalitytrait.unfoolable>Nie do oszukania</personalitytrait.unfoolable>
-<personalitytrait.upright>Pionowy</personalitytrait.upright>
-<personalitytrait.urbane>Układny</personalitytrait.urbane>
-
-<personalitytrait.venturesome>Śmiały</personalitytrait.venturesome>
-<personalitytrait.vivacious>Żywy</personalitytrait.vivacious>
-
-<personalitytrait.warm>Ciepło</personalitytrait.warm>
-<personalitytrait.well-bred>Dobrze wychowany</personalitytrait.well-bred>
-<personalitytrait.well-read>Oczytany</personalitytrait.well-read>
-<personalitytrait.well-rounded>Wszechstronny</personalitytrait.well-rounded>
-<personalitytrait.winning>Wygrywający</personalitytrait.winning>
-<personalitytrait.wise>Mądry</personalitytrait.wise>
-<personalitytrait.witty>Dowcipny</personalitytrait.witty>
-
-<personalitytrait.youthful>Młodzieńczy</personalitytrait.youthful>
-
-<!-- Neutral -->
-
-<personalitytrait.absentminded>Bujający w obłokach</personalitytrait.absentminded>
-<personalitytrait.aggressive>Agresywny</personalitytrait.aggressive>
-<personalitytrait.ambitious>Ambitny</personalitytrait.ambitious>
-<personalitytrait.amusing>Zabawny</personalitytrait.amusing>
-<personalitytrait.artful>Pomysłowy</personalitytrait.artful>
-<personalitytrait.ascetic>Ascetyczny</personalitytrait.ascetic>
-<personalitytrait.authoritarian>Autorytatywny</personalitytrait.authoritarian>
-
-<personalitytrait.big-thinking>Bardzo myślący</personalitytrait.big-thinking>
-<personalitytrait.boyish>Chłopięcy</personalitytrait.boyish>
-<personalitytrait.breezy>Przewiewny</personalitytrait.breezy>
-<personalitytrait.businesslike>Lubiący biznes</personalitytrait.businesslike>
-<personalitytrait.busy>Zajęty</personalitytrait.busy>
-
-<personalitytrait.casual>Codzienny</personalitytrait.casual>
-<personalitytrait.crebral>Mózgowy</personalitytrait.crebral>
-<personalitytrait.chummy>Koleżeński</personalitytrait.chummy>
-<personalitytrait.circumspect>Ostrożny</personalitytrait.circumspect>
-<personalitytrait.competitive>Konkurencyjny</personalitytrait.competitive>
-<personalitytrait.complex>Złożony</personalitytrait.complex>
-<personalitytrait.confidential>Poufny</personalitytrait.confidential>
-<personalitytrait.conservative>Konserwatywny</personalitytrait.conservative>
-<personalitytrait.contradictory>Sprzeczny</personalitytrait.contradictory>
-<personalitytrait.crisp>Chrupkowaty</personalitytrait.crisp>
-<personalitytrait.cute>Uroczy</personalitytrait.cute>
-
-<personalitytrait.deceptive>Zwodniczy</personalitytrait.deceptive>
-<personalitytrait.determined>Ustalony</personalitytrait.determined>
-<personalitytrait.dominating>Dominujący</personalitytrait.dominating>
-<personalitytrait.dreamy>Śniący</personalitytrait.dreamy>
-<personalitytrait.driving>Jeżdzący</personalitytrait.driving>
-<personalitytrait.droll>Żartowniś</personalitytrait.droll>
-<personalitytrait.dry>Suchy</personalitytrait.dry>
-
-<personalitytrait.earthy>Ziemisty</personalitytrait.earthy>
-<personalitytrait.effeminate>Zniewieściały</personalitytrait.effeminate>
-<personalitytrait.emotional>Emocjonalny</personalitytrait.emotional>
-<personalitytrait.enigmatic>Enigmatyczny</personalitytrait.enigmatic>
-<personalitytrait.experimental>Eksperymentalny</personalitytrait.experimental>
-
-<personalitytrait.familial>Znajomy</personalitytrait.familial>
-<personalitytrait.folksy>Folksy</personalitytrait.folksy>
-<personalitytrait.formal>Formalny</personalitytrait.formal>
-<personalitytrait.freewheeling>Wolnobiegowy</personalitytrait.freewheeling>
-<personalitytrait.frugal>Oszczędny</personalitytrait.frugal>
-
-<personalitytrait.glamorous>Czarujący</personalitytrait.glamorous>
-<personalitytrait.guileless>Szczery</personalitytrait.guileless>
-
-<personalitytrait.high-spirited>Uduchowiony</personalitytrait.high-spirited>
-<personalitytrait.huried>Spieszny</personalitytrait.huried>
-<personalitytrait.hypnotic>Hipnotyczny</personalitytrait.hypnotic>
-
-<personalitytrait.iconoclastic>Ikonoklastyczny</personalitytrait.iconoclastic>
-<personalitytrait.idiosyncratic>Idiosynkratyczny</personalitytrait.idiosyncratic>
-<personalitytrait.impassive>Niewzruszony</personalitytrait.impassive>
-<personalitytrait.impersonal>Bezosobowy</personalitytrait.impersonal>
-<personalitytrait.impressionable>Sugestywny</personalitytrait.impressionable>
-<personalitytrait.intense>Intensywny</personalitytrait.intense>
-<personalitytrait.invisible>Niewidzialny</personalitytrait.invisible>
-<personalitytrait.irreligious>Niereligijny</personalitytrait.irreligious>
-<personalitytrait.irreverent>Lekceważący</personalitytrait.irreverent>
-
-<personalitytrait.maternal>Macierzyński</personalitytrait.maternal>
-<personalitytrait.mellow>Łagodny</personalitytrait.mellow>
-<personalitytrait.modern>Nowoczesny</personalitytrait.modern>
-<personalitytrait.moralistic>Moralistyczny</personalitytrait.moralistic>
-<personalitytrait.mystical>Mistyczny</personalitytrait.mystical>
-
-<personalitytrait.neutral>Neutralny</personalitytrait.neutral>
-<personalitytrait.noncommittal>Wymijający</personalitytrait.noncommittal>
-<personalitytrait.noncompetitive>Niekonkurencyjny</personalitytrait.noncompetitive>
-
-<personalitytrait.obedient>Posłuszny</personalitytrait.obedient>
-<personalitytrait.old-fashined>Staromodny</personalitytrait.old-fashined>
-<personalitytrait.ordinary>Zwyczajny</personalitytrait.ordinary>
-<personalitytrait.outspoken>Szczery</personalitytrait.outspoken>
-
-<personalitytrait.paternalistic>Paternalistyczny</personalitytrait.paternalistic>
-<personalitytrait.physical>Fizyczny</personalitytrait.physical>
-<personalitytrait.placid>Spokojny</personalitytrait.placid>
-<personalitytrait.political>Polityczny</personalitytrait.political>
-<personalitytrait.predictable>Możliwy do przewidzenia</personalitytrait.predictable>
-<personalitytrait.preoccupied>Zaabsorbowany</personalitytrait.preoccupied>
-<personalitytrait.private>Ceniący prywatność</personalitytrait.private>
-<personalitytrait.progressive>Progresywny</personalitytrait.progressive>
-<personalitytrait.proud>Dumny</personalitytrait.proud>
-<personalitytrait.pure>Czysty</personalitytrait.pure>
-
-<personalitytrait.questioning>Pytający</personalitytrait.questioning>
-<personalitytrait.quiet>Cichy</personalitytrait.quiet>
-<personalitytrait.religious>Religijny</personalitytrait.religious>
-<personalitytrait.reserved>Zarezerwowany</personalitytrait.reserved>
-<personalitytrait.restrained>Powściągliwy</personalitytrait.restrained>
-<personalitytrait.retiring>Ustępujący</personalitytrait.retiring>
-
-<personalitytrait.sarcastic>Sarkastyczny</personalitytrait.sarcastic>
-<personalitytrait.self-conscious>Świadomy siebie</personalitytrait.self-conscious>
-<personalitytrait.sensual>Zmysłowy</personalitytrait.sensual>
-<personalitytrait.skeptical>Sceptyczny</personalitytrait.skeptical>
-<personalitytrait.smooth>Gładki</personalitytrait.smooth>
-<personalitytrait.soft>Miękki</personalitytrait.soft>
-<personalitytrait.solemn>Uroczysty</personalitytrait.solemn>
-<personalitytrait.solitary>Samotny</personalitytrait.solitary>
-<personalitytrait.stern>Rufowy</personalitytrait.stern>
-<personalitytrait.stoiid>Powściągliwy</personalitytrait.stoiid>
-<personalitytrait.strict>Ścisły</personalitytrait.strict>
-<personalitytrait.stubborn>Uparty</personalitytrait.stubborn>
-<personalitytrait.stylish>Elegancki</personalitytrait.stylish>
-<personalitytrait.subjective>Subiektywny</personalitytrait.subjective>
-<personalitytrait.surprising>Zaskakujący</personalitytrait.surprising>
-<!-- personalitytrait.soft>Miękki</personalitytrait.soft -->
-
-<personalitytrait.tough>Twardy</personalitytrait.tough>
-
-<personalitytrait.unaggressive>Nieagresywny</personalitytrait.unaggressive>
-<personalitytrait.unambitious>Bez ambicji</personalitytrait.unambitious>
-<personalitytrait.unceremonious>Bezceremonialny</personalitytrait.unceremonious>
-<personalitytrait.unchanging>Niezmienny</personalitytrait.unchanging>
-<personalitytrait.undemanding>Mało wymagający</personalitytrait.undemanding>
-<personalitytrait.unfathomable>Niezgłębiony</personalitytrait.unfathomable>
-<personalitytrait.unhurried>Niespieszny</personalitytrait.unhurried>
-<personalitytrait.uninhibited>Nieskrępowany</personalitytrait.uninhibited>
-<personalitytrait.unpatriotic>Niepatriotyczny</personalitytrait.unpatriotic>
-<personalitytrait.unpredicatable>Nieobliczalny</personalitytrait.unpredicatable>
-<personalitytrait.unreligious>Niereligijny</personalitytrait.unreligious>
-<personalitytrait.unsentimental>Niesentymentalny</personalitytrait.unsentimental>
-
-<personalitytrait.whimsical>Kapryśny</personalitytrait.whimsical>
-
-<!-- Negative -->
-
+  <!-- Personality traits -->
+  <!-- Positive -->
+  <personalitytrait.accessible>Dostępny</personalitytrait.accessible>
+  <personalitytrait.active>Aktywny</personalitytrait.active>
+  <personalitytrait.adaptable>Dający się przystosować</personalitytrait.adaptable>
+  <personalitytrait.admirable>Zachwycający</personalitytrait.admirable>
+  <personalitytrait.adventurous>Ryzykowny</personalitytrait.adventurous>
+  <personalitytrait.agreeable>Przyjemny</personalitytrait.agreeable>
+  <personalitytrait.alert>Alarmowy</personalitytrait.alert>
+  <personalitytrait.allocentric>Allocentryczny</personalitytrait.allocentric>
+  <personalitytrait.amiable>Sympatyczny</personalitytrait.amiable>
+  <personalitytrait.anticipative>Orientacyjny</personalitytrait.anticipative>
+  <personalitytrait.appreciative>Pochwalny</personalitytrait.appreciative>
+  <personalitytrait.articulate>Artykułowany</personalitytrait.articulate>
+  <personalitytrait.aspiring>Ambitny</personalitytrait.aspiring>
+  <personalitytrait.athletic>Atletyczny</personalitytrait.athletic>
+  <personalitytrait.attractive>Atrakcyjny</personalitytrait.attractive>
+  <personalitytrait.balanced>Zrównoważony</personalitytrait.balanced>
+  <personalitytrait.benevolent>Życzliwy</personalitytrait.benevolent>
+  <personalitytrait.brilliant>Znakomity</personalitytrait.brilliant>
+  <personalitytrait.calm>Spokojny</personalitytrait.calm>
+  <personalitytrait.capable>Zdolny</personalitytrait.capable>
+  <personalitytrait.captivating>Urzekający</personalitytrait.captivating>
+  <personalitytrait.caring>Opiekuńczy</personalitytrait.caring>
+  <personalitytrait.challenging>Trudne</personalitytrait.challenging>
+  <personalitytrait.charismatic>Charyzmatyczny</personalitytrait.charismatic>
+  <personalitytrait.charming>Uroczy</personalitytrait.charming>
+  <personalitytrait.cheerful>Wesoły</personalitytrait.cheerful>
+  <personalitytrait.clean>Czysty</personalitytrait.clean>
+  <personalitytrait.clear-headed>Trzeźwo myślący</personalitytrait.clear-headed>
+  <personalitytrait.clever>Sprytny</personalitytrait.clever>
+  <personalitytrait.colorful>Kolorowy</personalitytrait.colorful>
+  <personalitytrait.companionly>Towarzysko</personalitytrait.companionly>
+  <personalitytrait.compassionate>Współczujący</personalitytrait.compassionate>
+  <personalitytrait.conciliatory>Pojednawczy</personalitytrait.conciliatory>
+  <personalitytrait.confident>Pewny</personalitytrait.confident>
+  <personalitytrait.conscientious>Sumienny</personalitytrait.conscientious>
+  <personalitytrait.considerate>Uważny</personalitytrait.considerate>
+  <personalitytrait.constant>Stały</personalitytrait.constant>
+  <personalitytrait.contemplative>Kontemplacyjny</personalitytrait.contemplative>
+  <personalitytrait.cooperative>Spółdzielny</personalitytrait.cooperative>
+  <personalitytrait.courageous>Odważny</personalitytrait.courageous>
+  <personalitytrait.courteous>Uprzejmy</personalitytrait.courteous>
+  <personalitytrait.creative>Twórczy</personalitytrait.creative>
+  <personalitytrait.cultured>Wykształcony</personalitytrait.cultured>
+  <personalitytrait.curious>Ciekawy</personalitytrait.curious>
+  <personalitytrait.daring>Śmiały</personalitytrait.daring>
+  <personalitytrait.debonair>Jowialny</personalitytrait.debonair>
+  <personalitytrait.decent>Przyzwoity</personalitytrait.decent>
+  <personalitytrait.decisive>Decydujący</personalitytrait.decisive>
+  <personalitytrait.dedicated>Dedykowany</personalitytrait.dedicated>
+  <personalitytrait.deep>Głęboki</personalitytrait.deep>
+  <personalitytrait.dignified>Godny</personalitytrait.dignified>
+  <personalitytrait.directed>Skierowany</personalitytrait.directed>
+  <personalitytrait.disciplined>Zdyscyplinowany</personalitytrait.disciplined>
+  <personalitytrait.discreet>Dyskretny</personalitytrait.discreet>
+  <personalitytrait.dramatic>Dramatyczny</personalitytrait.dramatic>
+  <personalitytrait.dutiful>Dbający</personalitytrait.dutiful>
+  <personalitytrait.dynamic>Dynamiczny</personalitytrait.dynamic>
+  <personalitytrait.earnest>Zadatny</personalitytrait.earnest>
+  <personalitytrait.ebullient>Porywczy</personalitytrait.ebullient>
+  <personalitytrait.educated>Wykształcony</personalitytrait.educated>
+  <personalitytrait.efficient>Wydajny</personalitytrait.efficient>
+  <personalitytrait.elegant>Elegancki</personalitytrait.elegant>
+  <personalitytrait.eloquent>Wymowny</personalitytrait.eloquent>
+  <personalitytrait.empathetic>Empatyczny</personalitytrait.empathetic>
+  <personalitytrait.energetic>Energetyczny</personalitytrait.energetic>
+  <personalitytrait.enthusiastic>Entuzjastyczny</personalitytrait.enthusiastic>
+  <personalitytrait.esthetic>Estetyczny</personalitytrait.esthetic>
+  <personalitytrait.exciting>Ekscytujący</personalitytrait.exciting>
+  <personalitytrait.extraordinary>Niezwykły</personalitytrait.extraordinary>
+  <personalitytrait.fair>Uczciwy</personalitytrait.fair>
+  <personalitytrait.faithful>Wierny</personalitytrait.faithful>
+  <personalitytrait.farsighted>Dalekowzroczny</personalitytrait.farsighted>
+  <personalitytrait.felicific>Szczęśliwy</personalitytrait.felicific>
+  <personalitytrait.firm>Firmowy</personalitytrait.firm>
+  <personalitytrait.flexible>Elastyczny</personalitytrait.flexible>
+  <personalitytrait.focused>Skoncentrowany</personalitytrait.focused>
+  <personalitytrait.forecful>Forsowny</personalitytrait.forecful>
+  <personalitytrait.forgiving>Wyrozumiały</personalitytrait.forgiving>
+  <personalitytrait.forthright>Szczery</personalitytrait.forthright>
+  <personalitytrait.friendly>Przyjazny</personalitytrait.friendly>
+  <personalitytrait.fun-loving>Kochający zabawę</personalitytrait.fun-loving>
+  <personalitytrait.gallant>Dzielny</personalitytrait.gallant>
+  <personalitytrait.generous>Hojny</personalitytrait.generous>
+  <personalitytrait.gentle>Delikatny</personalitytrait.gentle>
+  <personalitytrait.genuine>Prawdziwy</personalitytrait.genuine>
+  <personalitytrait.good-natured>Dobroduszny</personalitytrait.good-natured>
+  <personalitytrait.gracious>Łaskawy</personalitytrait.gracious>
+  <personalitytrait.hardworking>Pracowity</personalitytrait.hardworking>
+  <personalitytrait.healthy>Zdrowy</personalitytrait.healthy>
+  <personalitytrait.hearty>Serdeczny</personalitytrait.hearty>
+  <personalitytrait.helpful>Pomocny</personalitytrait.helpful>
+  <personalitytrait.herioc>Heroiczny</personalitytrait.herioc>
+  <personalitytrait.high-minded>Wspaniały</personalitytrait.high-minded>
+  <personalitytrait.honest>Szczery</personalitytrait.honest>
+  <personalitytrait.honorable>Honorowy</personalitytrait.honorable>
+  <personalitytrait.humble>Pokorny</personalitytrait.humble>
+  <personalitytrait.humorous>Humorystyczny</personalitytrait.humorous>
+  <personalitytrait.imaginative>Obdarzony wyobraźnią</personalitytrait.imaginative>
+  <personalitytrait.impressive>Imponujący</personalitytrait.impressive>
+  <personalitytrait.incisive>Zjadliwy</personalitytrait.incisive>
+  <personalitytrait.incorruptible>Nieprzekupny</personalitytrait.incorruptible>
+  <personalitytrait.independent>Niezależny</personalitytrait.independent>
+  <personalitytrait.individualistic>Indywidualistyczny</personalitytrait.individualistic>
+  <personalitytrait.innovative>Innowacyjny</personalitytrait.innovative>
+  <personalitytrait.inoffensive>Nieszkodliwy</personalitytrait.inoffensive>
+  <personalitytrait.insightful>Wnikliwy</personalitytrait.insightful>
+  <personalitytrait.insouciant>Nieświadomy</personalitytrait.insouciant>
+  <personalitytrait.intelligent>Inteligentny</personalitytrait.intelligent>
+  <personalitytrait.intuitive>Intuicyjny</personalitytrait.intuitive>
+  <personalitytrait.invulnerable>Niewrażliwy</personalitytrait.invulnerable>
+  <personalitytrait.kind>Uprzejmy</personalitytrait.kind>
+  <personalitytrait.knowledge>Wiedzący</personalitytrait.knowledge>
+  <personalitytrait.leaderly>Rządzący</personalitytrait.leaderly>
+  <personalitytrait.leisurely>Spokojny</personalitytrait.leisurely>
+  <personalitytrait.liberal>Liberalny</personalitytrait.liberal>
+  <personalitytrait.logical>Logiczny</personalitytrait.logical>
+  <personalitytrait.lovable>Sympatyczny</personalitytrait.lovable>
+  <personalitytrait.loyal>Wierny</personalitytrait.loyal>
+  <personalitytrait.lyrical>Liryczny</personalitytrait.lyrical>
+  <personalitytrait.magnanimous>Wspaniałomyślny</personalitytrait.magnanimous>
+  <personalitytrait.many-sided>Wielostronny</personalitytrait.many-sided>
+  <personalitytrait.masculine>Męski</personalitytrait.masculine>
+  <personalitytrait.mature>Dojrzały</personalitytrait.mature>
+  <personalitytrait.methodical>Metodyczny</personalitytrait.methodical>
+  <personalitytrait.maticulous>Skrupulatny</personalitytrait.maticulous>
+  <personalitytrait.moderate>Umiarkowany</personalitytrait.moderate>
+  <personalitytrait.modest>Skromny</personalitytrait.modest>
+  <personalitytrait.multi-leveled>Wielopoziomowy</personalitytrait.multi-leveled>
+  <personalitytrait.neat>Schludny</personalitytrait.neat>
+  <personalitytrait.nonauthoritarian>Nieautorytaryzm</personalitytrait.nonauthoritarian>
+  <personalitytrait.objective>Obiektywny</personalitytrait.objective>
+  <personalitytrait.observant>Uważny</personalitytrait.observant>
+  <personalitytrait.open>Otwarty</personalitytrait.open>
+  <personalitytrait.optimistic>Optymistyczny</personalitytrait.optimistic>
+  <personalitytrait.orderly>Uporządkowany</personalitytrait.orderly>
+  <personalitytrait.organized>Zorganizowany</personalitytrait.organized>
+  <personalitytrait.original>Oryginalny</personalitytrait.original>
+  <personalitytrait.painstaking>Pracowity</personalitytrait.painstaking>
+  <personalitytrait.passionate>Namiętny</personalitytrait.passionate>
+  <personalitytrait.patient>Cierpliwy</personalitytrait.patient>
+  <personalitytrait.patriotic>Patriotyczny</personalitytrait.patriotic>
+  <personalitytrait.peaceful>Spokojny</personalitytrait.peaceful>
+  <personalitytrait.perceptive>Spostrzegawczy</personalitytrait.perceptive>
+  <personalitytrait.perfectionist>Perfekcjonista</personalitytrait.perfectionist>
+  <personalitytrait.personable>Przystojny</personalitytrait.personable>
+  <personalitytrait.persuasive>Przekonujący</personalitytrait.persuasive>
+  <personalitytrait.planful>Planowy</personalitytrait.planful>
+  <personalitytrait.playful>Figlarny</personalitytrait.playful>
+  <personalitytrait.polished>Błyszczący</personalitytrait.polished>
+  <personalitytrait.popular>Popularny</personalitytrait.popular>
+  <personalitytrait.practical>Praktyczny</personalitytrait.practical>
+  <personalitytrait.precise>Precyzyjny</personalitytrait.precise>
+  <personalitytrait.principled>Zasadny</personalitytrait.principled>
+  <personalitytrait.profound>Głęboki</personalitytrait.profound>
+  <personalitytrait.protean>Zmienny</personalitytrait.protean>
+  <personalitytrait.protective>Ochronny</personalitytrait.protective>
+  <personalitytrait.providential>Opatrznościowy</personalitytrait.providential>
+  <personalitytrait.prudent>Ostrożny</personalitytrait.prudent>
+  <personalitytrait.punctual>Punktualny</personalitytrait.punctual>
+  <personalitytrait.pruposeful>Celowny</personalitytrait.pruposeful>
+  <personalitytrait.rational>Racjonalny</personalitytrait.rational>
+  <personalitytrait.realistic>Realistyczny</personalitytrait.realistic>
+  <personalitytrait.reflective>Odblaskowy</personalitytrait.reflective>
+  <personalitytrait.relaxed>Zrelaksowany</personalitytrait.relaxed>
+  <personalitytrait.reliable>Niezawodny</personalitytrait.reliable>
+  <personalitytrait.resourceful>Pomysłowy</personalitytrait.resourceful>
+  <personalitytrait.respectful>Pełen szacunku</personalitytrait.respectful>
+  <personalitytrait.responsible>Odpowiedzialny</personalitytrait.responsible>
+  <personalitytrait.responsive>Czuły</personalitytrait.responsive>
+  <personalitytrait.reverential>Pełen szacunku</personalitytrait.reverential>
+  <personalitytrait.romantic>Romantyczny</personalitytrait.romantic>
+  <personalitytrait.rustic>Rustykalny</personalitytrait.rustic>
+  <personalitytrait.sage>Umysłowy</personalitytrait.sage>
+  <personalitytrait.sane>Rozsądny</personalitytrait.sane>
+  <personalitytrait.scholarly>Uczony</personalitytrait.scholarly>
+  <personalitytrait.scrupulous>Skrupulatny</personalitytrait.scrupulous>
+  <personalitytrait.secure>Ochronny</personalitytrait.secure>
+  <personalitytrait.selfless>Bezinteresowny</personalitytrait.selfless>
+  <personalitytrait.self-critical>Krytyczny</personalitytrait.self-critical>
+  <personalitytrait.self-defacing>Samookaleczalny</personalitytrait.self-defacing>
+  <personalitytrait.self-denying>Zaprzeczający sobie</personalitytrait.self-denying>
+  <personalitytrait.self-reliant>Samowystarczalny</personalitytrait.self-reliant>
+  <personalitytrait.self-sufficent>Samowystarczalny</personalitytrait.self-sufficent>
+  <personalitytrait.sensitive>Wrażliwy</personalitytrait.sensitive>
+  <personalitytrait.sentimental>Sentymentalny</personalitytrait.sentimental>
+  <personalitytrait.seraphic>Seraficzny</personalitytrait.seraphic>
+  <personalitytrait.serious>Poważny</personalitytrait.serious>
+  <personalitytrait.sexy>Seksowny</personalitytrait.sexy>
+  <personalitytrait.sharing>Dzielący się</personalitytrait.sharing>
+  <personalitytrait.shrewd>Sprytny</personalitytrait.shrewd>
+  <personalitytrait.simple>Prosty</personalitytrait.simple>
+  <personalitytrait.skillful>Zręczny</personalitytrait.skillful>
+  <personalitytrait.sober>Trzeźwy</personalitytrait.sober>
+  <personalitytrait.sociable>Towarzyski</personalitytrait.sociable>
+  <personalitytrait.solid>Solidny</personalitytrait.solid>
+  <personalitytrait.sophisticated>Wyrafinowany</personalitytrait.sophisticated>
+  <personalitytrait.spontaneous>Spontaniczny</personalitytrait.spontaneous>
+  <personalitytrait.sporting>Sportowiec</personalitytrait.sporting>
+  <personalitytrait.stable>Stabilny</personalitytrait.stable>
+  <personalitytrait.steadfast>Niezłomny</personalitytrait.steadfast>
+  <personalitytrait.steady>Stały</personalitytrait.steady>
+  <personalitytrait.stoic>Stoicki</personalitytrait.stoic>
+  <personalitytrait.strong>Silny</personalitytrait.strong>
+  <personalitytrait.studious>Intelektualny</personalitytrait.studious>
+  <personalitytrait.suave>Uprzejmy</personalitytrait.suave>
+  <personalitytrait.subtle>Subtelny</personalitytrait.subtle>
+  <personalitytrait.sweet>Słodki</personalitytrait.sweet>
+  <personalitytrait.sympathetic>Sympatyczny</personalitytrait.sympathetic>
+  <personalitytrait.systematic>Systematyczny</personalitytrait.systematic>
+  <personalitytrait.tasteful>Gustowny</personalitytrait.tasteful>
+  <personalitytrait.teacherly>Nauczycielski</personalitytrait.teacherly>
+  <personalitytrait.thorough>Dokładny</personalitytrait.thorough>
+  <personalitytrait.tidy>Uporządkowane</personalitytrait.tidy>
+  <personalitytrait.tolerant>Tolerancyjny</personalitytrait.tolerant>
+  <personalitytrait.tractable>Uległy</personalitytrait.tractable>
+  <personalitytrait.trusting>Ufający</personalitytrait.trusting>
+  <personalitytrait.uncomplaining>Nie narzekający</personalitytrait.uncomplaining>
+  <personalitytrait.understanding>Rozumiejący</personalitytrait.understanding>
+  <personalitytrait.undogmatic>Niedogmatyczny</personalitytrait.undogmatic>
+  <personalitytrait.unfoolable>Nie do oszukania</personalitytrait.unfoolable>
+  <personalitytrait.upright>Pionowy</personalitytrait.upright>
+  <personalitytrait.urbane>Układny</personalitytrait.urbane>
+  <personalitytrait.venturesome>Śmiały</personalitytrait.venturesome>
+  <personalitytrait.vivacious>Żywy</personalitytrait.vivacious>
+  <personalitytrait.warm>Ciepło</personalitytrait.warm>
+  <personalitytrait.well-bred>Dobrze wychowany</personalitytrait.well-bred>
+  <personalitytrait.well-read>Oczytany</personalitytrait.well-read>
+  <personalitytrait.well-rounded>Wszechstronny</personalitytrait.well-rounded>
+  <personalitytrait.winning>Wygrywający</personalitytrait.winning>
+  <personalitytrait.wise>Mądry</personalitytrait.wise>
+  <personalitytrait.witty>Dowcipny</personalitytrait.witty>
+  <personalitytrait.youthful>Młodzieńczy</personalitytrait.youthful>
+  <!-- Neutral -->
+  <personalitytrait.absentminded>Bujający w obłokach</personalitytrait.absentminded>
+  <personalitytrait.aggressive>Agresywny</personalitytrait.aggressive>
+  <personalitytrait.ambitious>Ambitny</personalitytrait.ambitious>
+  <personalitytrait.amusing>Zabawny</personalitytrait.amusing>
+  <personalitytrait.artful>Pomysłowy</personalitytrait.artful>
+  <personalitytrait.ascetic>Ascetyczny</personalitytrait.ascetic>
+  <personalitytrait.authoritarian>Autorytatywny</personalitytrait.authoritarian>
+  <personalitytrait.big-thinking>Bardzo myślący</personalitytrait.big-thinking>
+  <personalitytrait.boyish>Chłopięcy</personalitytrait.boyish>
+  <personalitytrait.breezy>Przewiewny</personalitytrait.breezy>
+  <personalitytrait.businesslike>Lubiący biznes</personalitytrait.businesslike>
+  <personalitytrait.busy>Zajęty</personalitytrait.busy>
+  <personalitytrait.casual>Codzienny</personalitytrait.casual>
+  <personalitytrait.crebral>Mózgowy</personalitytrait.crebral>
+  <personalitytrait.chummy>Koleżeński</personalitytrait.chummy>
+  <personalitytrait.circumspect>Ostrożny</personalitytrait.circumspect>
+  <personalitytrait.competitive>Konkurencyjny</personalitytrait.competitive>
+  <personalitytrait.complex>Złożony</personalitytrait.complex>
+  <personalitytrait.confidential>Poufny</personalitytrait.confidential>
+  <personalitytrait.conservative>Konserwatywny</personalitytrait.conservative>
+  <personalitytrait.contradictory>Sprzeczny</personalitytrait.contradictory>
+  <personalitytrait.crisp>Chrupkowaty</personalitytrait.crisp>
+  <personalitytrait.cute>Uroczy</personalitytrait.cute>
+  <personalitytrait.deceptive>Zwodniczy</personalitytrait.deceptive>
+  <personalitytrait.determined>Ustalony</personalitytrait.determined>
+  <personalitytrait.dominating>Dominujący</personalitytrait.dominating>
+  <personalitytrait.dreamy>Śniący</personalitytrait.dreamy>
+  <personalitytrait.driving>Jeżdzący</personalitytrait.driving>
+  <personalitytrait.droll>Żartowniś</personalitytrait.droll>
+  <personalitytrait.dry>Suchy</personalitytrait.dry>
+  <personalitytrait.earthy>Ziemisty</personalitytrait.earthy>
+  <personalitytrait.effeminate>Zniewieściały</personalitytrait.effeminate>
+  <personalitytrait.emotional>Emocjonalny</personalitytrait.emotional>
+  <personalitytrait.enigmatic>Enigmatyczny</personalitytrait.enigmatic>
+  <personalitytrait.experimental>Eksperymentalny</personalitytrait.experimental>
+  <personalitytrait.familial>Znajomy</personalitytrait.familial>
+  <personalitytrait.folksy>Folksy</personalitytrait.folksy>
+  <personalitytrait.formal>Formalny</personalitytrait.formal>
+  <personalitytrait.freewheeling>Wolnobiegowy</personalitytrait.freewheeling>
+  <personalitytrait.frugal>Oszczędny</personalitytrait.frugal>
+  <personalitytrait.glamorous>Czarujący</personalitytrait.glamorous>
+  <personalitytrait.guileless>Szczery</personalitytrait.guileless>
+  <personalitytrait.high-spirited>Uduchowiony</personalitytrait.high-spirited>
+  <personalitytrait.huried>Spieszny</personalitytrait.huried>
+  <personalitytrait.hypnotic>Hipnotyczny</personalitytrait.hypnotic>
+  <personalitytrait.iconoclastic>Ikonoklastyczny</personalitytrait.iconoclastic>
+  <personalitytrait.idiosyncratic>Idiosynkratyczny</personalitytrait.idiosyncratic>
+  <personalitytrait.impassive>Niewzruszony</personalitytrait.impassive>
+  <personalitytrait.impersonal>Bezosobowy</personalitytrait.impersonal>
+  <personalitytrait.impressionable>Sugestywny</personalitytrait.impressionable>
+  <personalitytrait.intense>Intensywny</personalitytrait.intense>
+  <personalitytrait.invisible>Niewidzialny</personalitytrait.invisible>
+  <personalitytrait.irreligious>Niereligijny</personalitytrait.irreligious>
+  <personalitytrait.irreverent>Lekceważący</personalitytrait.irreverent>
+  <personalitytrait.maternal>Macierzyński</personalitytrait.maternal>
+  <personalitytrait.mellow>Łagodny</personalitytrait.mellow>
+  <personalitytrait.modern>Nowoczesny</personalitytrait.modern>
+  <personalitytrait.moralistic>Moralistyczny</personalitytrait.moralistic>
+  <personalitytrait.mystical>Mistyczny</personalitytrait.mystical>
+  <personalitytrait.neutral>Neutralny</personalitytrait.neutral>
+  <personalitytrait.noncommittal>Wymijający</personalitytrait.noncommittal>
+  <personalitytrait.noncompetitive>Niekonkurencyjny</personalitytrait.noncompetitive>
+  <personalitytrait.obedient>Posłuszny</personalitytrait.obedient>
+  <personalitytrait.old-fashined>Staromodny</personalitytrait.old-fashined>
+  <personalitytrait.ordinary>Zwyczajny</personalitytrait.ordinary>
+  <personalitytrait.outspoken>Szczery</personalitytrait.outspoken>
+  <personalitytrait.paternalistic>Paternalistyczny</personalitytrait.paternalistic>
+  <personalitytrait.physical>Fizyczny</personalitytrait.physical>
+  <personalitytrait.placid>Spokojny</personalitytrait.placid>
+  <personalitytrait.political>Polityczny</personalitytrait.political>
+  <personalitytrait.predictable>Możliwy do przewidzenia</personalitytrait.predictable>
+  <personalitytrait.preoccupied>Zaabsorbowany</personalitytrait.preoccupied>
+  <personalitytrait.private>Ceniący prywatność</personalitytrait.private>
+  <personalitytrait.progressive>Progresywny</personalitytrait.progressive>
+  <personalitytrait.proud>Dumny</personalitytrait.proud>
+  <personalitytrait.pure>Czysty</personalitytrait.pure>
+  <personalitytrait.questioning>Pytający</personalitytrait.questioning>
+  <personalitytrait.quiet>Cichy</personalitytrait.quiet>
+  <personalitytrait.religious>Religijny</personalitytrait.religious>
+  <personalitytrait.reserved>Zarezerwowany</personalitytrait.reserved>
+  <personalitytrait.restrained>Powściągliwy</personalitytrait.restrained>
+  <personalitytrait.retiring>Ustępujący</personalitytrait.retiring>
+  <personalitytrait.sarcastic>Sarkastyczny</personalitytrait.sarcastic>
+  <personalitytrait.self-conscious>Świadomy siebie</personalitytrait.self-conscious>
+  <personalitytrait.sensual>Zmysłowy</personalitytrait.sensual>
+  <personalitytrait.skeptical>Sceptyczny</personalitytrait.skeptical>
+  <personalitytrait.smooth>Gładki</personalitytrait.smooth>
+  <personalitytrait.solemn>Uroczysty</personalitytrait.solemn>
+  <personalitytrait.solitary>Samotny</personalitytrait.solitary>
+  <personalitytrait.stern>Rufowy</personalitytrait.stern>
+  <personalitytrait.stoiid>Powściągliwy</personalitytrait.stoiid>
+  <personalitytrait.strict>Ścisły</personalitytrait.strict>
+  <personalitytrait.stubborn>Uparty</personalitytrait.stubborn>
+  <personalitytrait.stylish>Elegancki</personalitytrait.stylish>
+  <personalitytrait.subjective>Subiektywny</personalitytrait.subjective>
+  <personalitytrait.surprising>Zaskakujący</personalitytrait.surprising>
+  <personalitytrait.soft>Miękki</personalitytrait.soft>
+  <personalitytrait.tough>Twardy</personalitytrait.tough>
+  <personalitytrait.unaggressive>Nieagresywny</personalitytrait.unaggressive>
+  <personalitytrait.unambitious>Bez ambicji</personalitytrait.unambitious>
+  <personalitytrait.unceremonious>Bezceremonialny</personalitytrait.unceremonious>
+  <personalitytrait.unchanging>Niezmienny</personalitytrait.unchanging>
+  <personalitytrait.undemanding>Mało wymagający</personalitytrait.undemanding>
+  <personalitytrait.unfathomable>Niezgłębiony</personalitytrait.unfathomable>
+  <personalitytrait.unhurried>Niespieszny</personalitytrait.unhurried>
+  <personalitytrait.uninhibited>Nieskrępowany</personalitytrait.uninhibited>
+  <personalitytrait.unpatriotic>Niepatriotyczny</personalitytrait.unpatriotic>
+  <personalitytrait.unpredicatable>Nieobliczalny</personalitytrait.unpredicatable>
+  <personalitytrait.unreligious>Niereligijny</personalitytrait.unreligious>
+  <personalitytrait.unsentimental>Niesentymentalny</personalitytrait.unsentimental>
+  <personalitytrait.whimsical>Kapryśny</personalitytrait.whimsical>
+  <!-- Negative -->
 </infotexts>
